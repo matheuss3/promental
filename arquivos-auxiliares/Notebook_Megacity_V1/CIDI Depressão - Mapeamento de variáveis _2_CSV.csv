@@ -1,0 +1,1398 @@
+Identificador;Pergunta/Instrução;Página;Variável na base de dados;Possíveis valores
+D1;"O(A) Sr(a). mencionou anteriormente que teve períodos de vários dias ou mais em que se sentia triste, vazio(a) oudeprimido(a) a maior parte do dia. Durante fases como essa, o(a) Sr(a). alguma vez se sentiu 
+desanimado(a) em relação a como as coisas andavam em sua vida?";9;D1;"SIM = 1
+NÃO = 5
+NÃO SABE = 8
+RECUSOU = 9"
+D1a;Durante as fase sem que se sentia triste, vazio(a) ou deprimido(a), o(a) Sr(a). alguma vez perdeu o interessena maioria dascoisas como trabalho, diversão e outras atividades de que habitualmente gostava?;9;D1A;"SIM = 1
+NÃO = 5
+NÃO SABE = 8
+RECUSOU = 9"
+D1b;Durante as fases em que se sentia triste, vazio(a) ou deprimido(a), o(a) Sr(a). alguma vez perdeu o interessena maioria das coisas como trabalho, diversão e outras atividades de que habitualmente gostava?;9;D1B;"SIM = 1
+NÃO = 5
+NÃO SABE = 8
+RECUSOU = 9"
+D2;"(O Sr/a Sra.) mencionou anteriormente queteve períodos de vários dias ou mais em que se sentia desanimado(a)em relação a como as coisas andavam em sua vida. Durante fases como essa, o(a) Sr(a). alguma vez 
+perdeu o interesse na maioria das coisas como trabalho, diversão e outras atividades de que habitualmente gostava?";9;D2;"SIM = 1
+NÃO = 5
+NÃO SABE = 8
+RECUSOU = 9"
+D3;"INSTRUÇÃO PARA O ENTREVISTADOR: 
+ANOTE A FRASE-CHAVE ""TRISTE, DESANIMADO(A) OU DESINTERESSADO(A)"" NO CARTÃO REF, SEÇÃO DEPRESSÃO (LADO UM) E USE-ANO RESTANTE DA SEÇÃO VÁ PARA *D12 E TRANSPORTE A
+FRASE-CHAVE";9;Not Found;
+D4;"INSTRUÇÃO PARA O ENTREVISTADOR:
+ANOTE A FRASE-CHAVE ""TRISTE OU DESANIMADO(A)"" NO CARTÃO REF, SEÇÃO DEPRESSÃO (LADO UM) E USE - A NO RESTANTE DA SEÇÃO VÁ PARA *D12 E TRANSPORTE AFRASE-CHAVE";9;Not Found;
+D5;"PONTO DE VERIFICAÇÃO DO ENTREVISTADOR:
+ANOTE A FRASE-CHAVE ""TRISTE OU DESINTERESSADO(A)"" NO CARTÃO REF, SEÇÃO DEPRESSÃO (LADO UM) E USE-A NO RESTANTE DA SEÇÃO VÁ PARA *D12 E TRANSPORTE A FRASE-CHAVE";10;Not Found;
+D6;"PONTO DE VERIFICAÇÃO DO ENTREVISTADOR:
+ANOTE A FRASE-CHAVE ""TRISTE"" NO CARTÃO REF, SEÇÃO DEPRESSÃO (LADO UM) E USE-A NO RESTANTE DA SEÇÃO VÁ PARA *D12 E TRANSPORTE A FRASE-CHAVE";10;Not Found;
+D7;"PONTO DE VERIFICAÇÃO DO ENTREVISTADOR:
+ANOTE A FRASE-CHAVE ""DESANIMADO(A) OU DESINTERESSADO(A)"" NO CARTÃO REF, SEÇÃO DEPRESSÃO (LADO UM) E USE-A NO RESTANTE DA SEÇÃO VÁ PARA *D12 E TRANSPORTE A FRASE-CHAVE";10;Not Found;
+D8;"PONTO DE VERIFICAÇÃO DO ENTREVISTADOR:
+ANOTE A FRASE-CHAVE ""DESANIMADO(A)"" NO CARTÃO REF, SEÇÃO DEPRESSÃO (LADO UM) E USE-ANO RESTANTE DA SEÇÃO VÁ PARA *D12 E TRANSPORTE A FRASE-CHAVE";10;Not Found;
+D9;"(O Sr/a Sra.) mencionou anteriormente que teve períodos de vários dias ou mais em que perdia o interesse na maioria das coisas, como trabalho, diversão e outras atividades de que habitualmente gostava.
+Alguma vez o(a)Sr(a). já teve uma fase como essa que tenha durado a maior parte do dia, quase todos os dias por duas semanas ou mais?";10;D9;"SIM = 1
+NÃO = 5
+NÃO SABE = 8
+RECUSOU = 9"
+D9a;"Quantos dias durou o período mais longo em que o(a) Sr(a). perdeu o interesse na maioria das coisasde que habitualmente gostava?
+ENTREVISTADOR: ""MENOS DO QUE UM DIA"" CODIFIQUE '0'
+__________ NÚMERO
+CIRCULE A UNID DE TEMPO: DIAS.....1 SEMANAS.....2 MESES.....3 ANOS.....4
+SONDAR SE ""NÃO SEI"": Foram três dias ou mais? SE ""SIM"", CODIFIQUE '3'";10;D9A1, D9A2;"D9A1:
+NÚMEROS INTEIROS DE PERÍODO DE
+TEMPO: 0 A INF
+998 = NÃO SABE
+999 = RECUSOU
+D9A2:
+1 = DIAS
+2 = SEMANAS
+3 = MESES
+4 = ANOS"
+D10;"PONTO DE VERIFICAÇÃO DO ENTREVISTADOR: (VER*D9a)
+DURAÇÃO DE 3 DIAS OU MAIS.....................1 
+TODAS AS OUTRAS POSSIBILIDADES.........2";10;D10;"1 = DURAÇÃO DE 3 DIAS OU MAIS
+2 = TODAS AS OUTRAS POSSIBILIDADES"
+D11;"INSTRUÇÃO PARA O ENTREVISTADOR:
+ANOTE A FRASE-CHAVE ""DESINTERESSADO(A)"" NO CARTÃO REF, SEÇÃO DEPRESSÃO (LADO UM) E USE-ANO RESTANTE DA SEÇÃO VÁ PARA *D16 E TRANSPORTE A FRASE-CHAVE";11;D11;"1 = ANOTOU A PALAVRA-CHAVE
+""DESINTERESSADO"""
+D12;Alguma vez o(a) Sr(a). teve um período que tenha durado duas semanas ou mais em que se sentiu (FRASE-CHAVE) a maior parte do dia, quase todos os dias?;11;D12;"SIM = 1
+NÃO = 5
+NÃO SABE = 8
+RECUSOU = 9"
+D12a;Quantos dias durou o período mais longo em que o(a) Sr(a). se sentiu (FRASE-CHAVE) durante a maior parte do dia?;11;D12A;"NÚMEROS INTEIROS DE DIAS: 0 A INF
+998 = NÃO SABE
+999 = SE RECUSOU"
+D13;"PONTO DE VERIFICAÇÃO DO ENTREVISTADOR: (VER*D12a)
+DURAÇÃO DE 3 DIAS OU MAIS.......................................................1
+TODAS AS OUTRAS POSSIBILIDADES...........................................2";11;D13;"1 = DURAÇÃO DE 3 DIAS OU MAIS
+2 = TODAS AS OUTRAS POSSIBILIDADES"
+D14;Houve alguma época na sua vida, que tenha durado um ano ou mais, em que o(a) Sr(a). teve diversas fases que duraram vários dias nas quais se sentia (FRASE-CHAVE)?;11;D14;"SIM = 1
+NÃO = 5
+NÃO SABE = 8
+RECUSOU = 9"
+D14a;Houve alguma época na sua vida, que tenha durado um ano ou mais, em que quase todos os meses o(a) Sr(a). teve uma fase como essa?;11;D14A;"SIM = 1
+NÃO = 5
+NÃO SABE = 8
+RECUSOU = 9"
+D15;"Pense nas fases de vários dias em que (esse problema/esses problemas) com seu estado de ânimo (foi/foram) mais intenso(s) e freqüente(s). Nessas fases, geralmente o(a) Sr(a). se sentia (FRASE-CHAVE) 
+durante---menos de 1hora por dia, entre 1 e 3 horas, entre 3 e 5 horas ou mais de 5 horas por dia?
+
+ENTREVISTADOR: ANOTE A DURAÇÃO ""VÁRIOS DIAS OU MAIS"" NO CARTÃO REF, SEÇÃO DEPRESSÃO (LADO UM) E USE-A NO RESTANTE DA SEÇÃO.TRANSPORTE A DURAÇÃO PARA *D22";11;D15;"1 = MENOS DE UMA HORA
+2 = ENTRE 1 E 3 HORAS
+3 = ENTRE 3 E 5 HORAS
+8 = NÃO SABE
+9 = SE RECUSOU"
+D16;"Pense nas fases de duas semanas ou mais em que (esse problema/esses problemas) com seu estado de ânimo(foi/foram) mais intenso(s) e freqüente(s). Nessas fases, o(a) Sr(a). geralmente se sentia (FRASE-CHAVE) 
+durante---menos de 1 hora por dia, entre 1 e 3 horas, entre 3 e 5 horas ou mais de 5 horas por dia?
+MENOS DE 1 HORA...................................1
+ENTRE 1 E 3 HORAS..................................2
+ENTRE 3 E 5 HORAS..................................3
+MAIS DE 5 HORAS.....................................4
+NÃO SABE...................................................8
+RECUSOU....................................................9
+ENTREVISTADOR: ANOTE A DURAÇÃO ""DUAS SEMANAS OU MAIS"" NO CARTÃO REF, SEÇÃO DEPRESSÃO (LADO UM) E USE-A NO RESTANTE DA SEÇÃO";12;D16;"1 = MENOS DE UMA HORA
+2 = ENTRE 1 E 3 HORAS
+3 = ENTRE 3 E 5 HORAS
+8 = NÃO SABE
+9 = SE RECUSOU"
+D17;Durante essas ocasiões, qual foi a intensidade de seu sofrimento emocional---leve, moderada, intensa, ou muito intensa?;12;D17;"1 = LEVE
+2 = MODERADA
+3 = INTENSA
+4 = MUITO INTENSA
+8 = NÃO SABE
+9 = RECUSOU"
+D18;Durante essas ocasiões, com que freqüência seu sofrimento emocional foi tão intenso que nada conseguia animá-lo(a)---freqüentemente, às vezes, raramente ou nunca?;12;D18;"1 = FREQUENTEMENTE
+2 = ÀS VEZES
+3 = RARAMENTE
+4 = NUNCA
+8 = NÃO SABE
+9 = RECUSOU"
+D19;Durante essas ocasiões, com que freqüência seu sofrimento emocional foi tão intenso que o(a) Sr(a). não conseguia realizar suas atividades do dia-a-dia---freqüentemente, às vezes, raramente ou nunca?;12;D19;"1 = FREQUENTEMENTE
+2 = ÀS VEZES
+3 = RARAMENTE
+4 = NUNCA
+8 = NÃO SABE
+9 = RECUSOU"
+D20;"PONTO DE VERIFICAÇÃO DO ENTREVISTADOR: (VER*D17, *D18,*D19)
+*D17 CODIFICADA '1' E *D18 CODIFICADA '4' E *D19 CODIFICADA '4'........1
+TODAS AS OUTRAS POSSIBILIDADES...........................................................2";12;D20;"1 = D17 CODIFICADA '1' E D18 CODIFICADA 
+'4' E D19 CODIFICADA '4'
+2 = TODAS AS OUTRAS POSSIBILIDADES"
+D21;"Pessoas com fases em que se sentem (FRASE-CHAVE) freqüentemente têm outros problemas ao mesmo tempo. Por exemplo, podem ter mudanças no sono, apetite, energia, capacidade de concentração e de memória,
+redução da auto-estima, entre outros. Alguma vez o(a) Sr(a). já teve algum desses problemas durante uma das fases em que se sentiu (FRASE-CHAVE)?
+SIM..............................................................................1
+NÃO............................................................................5
+NÃO SABE.................................................................8
+RECUSOU..................................................................9";13;D21;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = SE RECUSOU"
+D22;"Por favor, pense em uma fase ou período em que o(a) Sr(a). tenha se sentido (FRASE-CHAVE) e que tenha durado (DURAÇÃO), quando o(a) Sr(a). também apresentou o maior número desses outros problemas ao 
+mesmo tempo. Há alguma fase como essa que se destaca em sua memória como a pior que o(a) Sr(a). já teve?
+SIM..............................................................................1
+NÃO............................................................................5
+NÃO SABE.................................................................8
+RECUSOU..................................................................9";13;D22;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = SE RECUSOU"
+D22a;"Quantos anos o(a) Sr(a). tinha quando essa pior fase começou?
+__________ ANOS DE IDADE
+NÃO SABE..............................998
+RECUSOU...............................999";13;D22A;"NÚMERO INTEIRO DE ANOS: 0 A INF
+998 = NÃO SABE
+999 = SE RECUSOU"
+D22b;"Quanto tempo essa pior fase durou?
+__________ NÚMERO
+CIRCULE A UNID DE TEMPO: DIAS.....1 SEMANAS.....2 MESES.....3 ANOS.....4
+NÃO SABE............................98
+RECUSOU............................99";13;D22B, D22B1;"D22B:
+NÚMERO INTEIRO: 0 A IND
+998 = NÃO SABE
+999 = SE RECUSOU
+D22B1:
+1 = DIAS
+2 = SEMANAS
+3 = MESES
+4 = ANOS"
+D22c;"Pense agora na última vez que teve uma fase em que se sentiu (FRASE-CHAVE). Quantos anos o(a)Sr(a). tinha quando essa última fase ocorreu?
+__________ ANOS
+NÃO SABE..............................998
+RECUSOU...............................999";13;D22C;"NÚMERO INTEIRO DE ANOS: 0 A INF
+998 = NÃO SABE
+999 = SE RECUSOU"
+D22d;"Quanto tempo essa fase durou?
+__________ NÚMERO
+CIRCULE A UNID DE TEMPO: DIAS.....1 SEMANAS.....2 MESES.....3 ANOS.....4
+NÃO SABE..............................98
+RECUSOU...............................99";13;D22D, D22D1;"D22D:
+NÚMERO INTEIRO: 0 A IND
+998 = NÃO SABE
+999 = SE RECUSOU
+D22D1:
+1 = DIAS
+2 = SEMANAS
+3 = MESES
+4 = ANOS"
+D23;"Estava acontecendo alguma coisa em sua vida um pouco antes dessa fase começar, que tivesse feito com que ela ocorresse?
+SIM.................................................1
+NÃO...............................................5
+NÃO SABE....................................8
+RECUSOU.....................................9";14;D23;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = SE RECUSOU"
+D23a;"O que estava acontecendo? (ANOTE TODAS AS CAUSAS. SONDE: Mais alguma coisa?)(SE NEC: Olhe na página 3 de seu caderno alguns exemplos.)
+INSTRUÇÃO PARA O ENTREVISTADOR: CIRCULE TODAS AS CAUSAS MENCIONADAS NOS GRUPOS ABAIXO.
+ESTRESSE
+EXCESSO DE TRABALHO......................................................1
+TENSÃO...................................................................................2
+MORTE DE ENTE QUERIDO..................................................3
+SEPARAÇÃO/DIVÓRCIO........................................................4
+PERDA DE EMPREGO............................................................5
+ESTRESSE..............................................................................6
+OUTRA EXPERIÊNCIA ESTRESSANTE................................7
+ESPECIFIQUE: ______________________________________
+____________________________________________________
+DOENÇAS/LESÕES/CONDIÇÕES FÍSICAS
+ESGOTAMENTO......................................................................10
+CICLO MENSTRUAL...............................................................11
+GRAVIDEZ/PÓS-PARTO........................................................12
+DOENÇA DO CORAÇÃO........................................................13
+DOENÇA DA TIREÓIDE.........................................................14
+CÂNCER..................................................................................15
+EXCESSO DE PESO...............................................................16
+OUTRA DOENÇA, LESÃO OU CONDIÇÃO FÍSICA...............17
+ESPECIFIQUE: ______________________________________
+____________________________________________________
+OUTRA
+OUTRA
+..................................................................................................82
+ESPECIFIQUE: ______________________________________
+____________________________________________________
+NÃO SABE................................................................................98
+RECUSOU.................................................................................99";14;D23A01, D23A02,D23A03,D23A04, D23A05, D23A06, D23A07, D23A08, D23A09, D23A10, D23A11, D23A12, D23A13, D23A14, D23A15, D23A16, D23A17, D23A18;"D23A01:
+98 = NÃO SABE
+99 = SE RECUSOU
+D23A01 A D23A18:
+1 = EXCESSO DE TRABALHO
+2 = TENSÃO
+3 = MORTE DE ENTE QUERIDO
+4 = SEPARAÇÃO/DIVÓRCIO
+5 = PERDA DE EMPREGO
+6 = ESTRESSE
+7 = OUTRA EXPERIÊNCIA ESTRESSANTE
+10 = ESGOTAMENTO
+11 = CICLO MENSTRUAL
+12 = GRAVIDEZ/PÓS-PARTO
+13 = DOENÇA DO CORAÇÃO
+14 = DOENÇA DA TIREÓIDE
+15 = CÂNCER
+16 = EXCESSO DE PESO
+17 = OUTRA DOENÇA, LESÃO OU CONDIÇÃO
+FÍSICO
+82 = OUTRA"
+D24a;(O Sr/a Sra.) se sentia triste, vazio(a) ou deprimido(a) a maior parte dodia quase todos os dias durante esse período de (DURAÇÃO)?;15;D24A;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D24b;Se sentia tão triste que nada podia animá-lo(a), quase todos os dias?;15;D24B;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D24c;Durante esse período de (DURAÇÃO), o(a) Sr(a). se sentia desanimado(a) em relação a como as coisas andavam em sua vida amaior parte do dia quase todos os dias?;15;D24C;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D24d;Se sentia sem esperança quanto ao futuro, quase todos os dias?;15;D24D;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D24e;Durante esse período de (DURAÇÃO), o(a) Sr(a). perdeu o interesseem quase todas as coisas, como trabalho, diversão e atividades que o(a)Sr(a). gostava de fazer ?;15;D24E;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D24f;Perdeu a capacidade de sentir prazer nas coisas boas que lhe aconteciam?;15;D24F;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D25;"PONTO DE VERIFICAÇÃO DO ENTREVISTADOR: (VER*D24a-*D24f)
+UMA OU MAIS RESPOSTAS CODIFICADAS '1'...............................1
+TODAS AS OUTRAS POSSIBILIDADES...........................................2";15;D25;"1 = UMA OU MAIS RESPOSTAS CODIFICADAS
+'1'
+2 = TODAS AS OUTRAS POSSIBILIDADES"
+D26a;Durante esse período de (DURAÇÃO), o(a) Sr(a). tinha um apetite muito menor do que o habitual quase todos os dias?;16;D26A;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D26b;(O Sr/a Sra.) tinha um apetite muito maior do que o habitual quase todos os dias;16;D26B;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D26c;(O Sr/a Sra.) ganhou peso sem que estivesse tentando engordar durante aquele período de (DURAÇÃO)?;16;D26C;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D26d;"Quanto peso o(a) Sr(a). ganhou?
+__________ NÚMERO
+CIRCULE A UNID DE MASSA:
+LIBRAS......................................1
+QUILOS.....................................2";16;D26D, D26D1;"D26D:
+NÚMERO INTEIRO: 0 A IND
+998 = NÃO SABE
+999 = SE RECUSOU
+D22D1:
+1 = LIBRA
+2 = QUILOS"
+D26e;"(O Sr/a Sra.)perdeu peso sem que estivesse tentandoe magrecer?
+SE R RELATAR QUE ESTAVA FAZENDO REGIME OU FISICAMENTE DOENTE, CODIFIQUE 'NÃO' E VÁ PARA *D26g";16;D26E;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D26f;Quanto peso o(a) Sr(a). perdeu;16;D26F, D26F1;"D26F:
+NÚMERO INTEIRO: 0 A IND
+998 = NÃO SABE
+999 = SE RECUSOU
+D22F1:
+1 = LIBRA
+2 = QUILOS"
+D26g;Em relação ao sono, quase todas as noites o (Sr/a Sra.) tinhamais dificuldade do que habitualmente para pegar no sono, para continuar dormindo ou passou a acordar cedo demais, duranteesse período de (DURAÇÃO)?;16;D26G;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D26h;O(A) Sr(a). dormia muito mais do que o habitual quase todasas noites durante esse período de (DURAÇÃO)?;16;D26H;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D26i;Mesmo dormindo muito menos do que o habitual, o(a) Sr(a). se sentia alerta e descansado(a) ?;16;D26I;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D26j;Mesmo que o(a) Sr(a). não estivesse trabalhando muito, se sentia cansado(a) ou compouca energia quase todos os dias durante esse período de (DURAÇÃO)?;17;D26J;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D26k;Durante esse período de (DURAÇÃO), o(a) Sr(a). tinha muito mais energia do que o habitual quase todos os dias?;17;D26K;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D26l;Quase todos os dias,o(a) Sr(a). falava ou se movia mais lentamentedo que o habitual?;17;D26L;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D26m;Alguém mais notou que o(a) Sr(a). estava falando ou se movendo lentamente?;17;D26M;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D26n;Durante esse período de (DURAÇÃO), quase todos os dias, o(a)Sr(a). estava tão agitado(a) ou inquieto(a) que ficava andando de umlado para o outro ou não conseguia ficar sentado(a) quieto(a)?;17;D26N;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D26o;Alguém mais notou que o(a) Sr(a). estava agitado(a)?;17;D26O;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D26p;Os seus pensamentos estavam muito mais lentos do que o habitualou lhe pareciam confusos quase todos os dias durante esse período de (DURAÇÃO)?;17;D26P;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D26q;Os seus pensamentos ficavam pulando de um assunto para outro ou passavam tão rapidamente pela sua cabeça que o(a) Sr(a). não conseguia acompanhá-los?;17;D26Q;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D26r;Durante esse período de (DURAÇÃO), o(a) Sr(a). tinha muito mais dificuldade para se concentrar do que o habitual quase todos os dias?;17;D26R;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D26s;Tinha dificuldades para tomar decisões sobre coisas que geralmente eram fáceis de decidir?;17;D26S;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D26t;Durante esse período de (DURAÇÃO), o(a) Sr(a). perdeu a confiança em si mesmo?;17;D26T;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D26u;Quase todos os dias, sentia que não era tão bom(boa) quanto as outras pessoas?;17;D26U;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D26v;Quase todos os dias, sentia-se totalmente sem valor?;17;D26V;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D26w;Durante esse período de (DURAÇÃO), o(a) Sr(a). tinha sentimentos de muita culpa quase todos os dias?;18;D26W;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D26w.1;Quase todos os dias, o(a) Sr(a). se sentia muito mais culpado(a) doque deveria?;18;D26W_1;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D26x;Sentia-se irritado(a), implicante ou mal-humorado(a) quase todos osdias?;18;D26X;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D26y;Sentia-se nervoso(a) ou ansioso(a) na maioria dos dias?;18;D26Y;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D26z;Durante esse período de (DURAÇÃO), o(a) Sr(a). teve algum ataque repentino de medo intenso ou pânico?;18;D26Z;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D26aa;Pensava muito na morte, seja na sua própria, na de outra pessoa, ousobre a morte em geral?;18;D26AA;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D26bb;Durante esse período, alguma vez pensou que seria melhor se o(a)Sr(a). estivesse morto(a)?;18;D26BB;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D26cc;(O Sr/a Sra.) pensou em cometer suicídio?;18;D26CC;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D26dd;(O Sr/a Sra.) chegou a planejar suicídio?;18;D26DD;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D26ee;(O Sr/a Sra.) tentou suicídio?;18;D26EE;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D26ff;Durante esse período de (DURAÇÃO), o(a) Sr(a). sentia que não podia arcar com as suas responsabilidades do dia a dia?;18;D26FF;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D26gg;Preferia ficar sozinho (a) do que com amigos ou parentes?;18;D26GG;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D26hh;Estava menos falante do que o habitual?;18;D26HH;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D26ii;Chorava com freqüência?;18;D26II;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D26.1;O(A) Sr(a). trocava o dia pela noite porque não conseguia dormir, ficando muito ativo e disposto durante a noite e sentindo-se incapaz de funcionar de manhã?;18;Not Found;
+D26.2;Quantas horas, em média,o(a) Sr(a).dormia por noite?______________ HORAS;18;Not Found;
+D27;"PONTO DE VERIFICAÇÃO DO ENTREVISTADOR: (VER*D24A*D26ii)
+ZERO OU UMA RESPOSTA CODIFICADAS '1'................................1
+DUAS A QUATRO RESPOSTAS CODIFICADAS '1'.........................2
+CINCO OU MAIS RESPOSTAS CODIFICADAS '1'...........................3";18;D27;"1 = ZERO OU UMA RESPOSTA CODIFICADAS '1'
+2 = DUAS A QUATRO RESPOSTAS CODIFICADAS '1'
+3 = CINCO OU MAIS RESPOSTAS CODIFICADAS '1'"
+D27a;INSTRUÇÃO PARA O ENTREVISTADOR: CIRCULE A LETRA 'A' NO GRUPO LONGO/CURTO DO CARTÃO REF (LADO DOIS).;18;D27A;1 = D27 RESPONDIDA
+D28;"O(A) Sr(a). mencionou ter alguns desses problemas que acabei de perguntar. Quanto (suatristeza/ou/desânimo/ou/ desinteresse) e estes outros problemas interferiram em seu trabalho, na sua vida social ou em seus
+relacionamentos pessoais durante essa fase---nada, um pouco, moderadamente, muito ou extremamente?
+NADA...............................................1
+UM POUCO.....................................2
+MODERADAMENTE.......................3
+MUITO.............................................4
+EXTREMAMENTE...........................5
+NÃO SABE.......................................8
+RECUSOU.......................................9";19;D28;"1 = NADA
+2 = UM POUCO
+3 = MODERADAMENTE
+4 = MUITO
+5 = EXTREMAMENTE
+8 = NÃO SABE
+9 = RECUSOU"
+D28a;"Com que freqüência, durante essa fase, o(a) Sr(a). deixou de fazer suas atividades do dia-a-dia, ou cuidar de si mesmo(a) por causa de(sua tristeza/ou/desânimo/ou/ desinteresse)---freqüentemente, às vezes,
+raramente ou nunca?
+FREQUENTEMENTE......1
+ÀS VEZES.......................2
+RARAMENTE..................3
+NUNCA............................4
+NÃO SABE......................8
+RECUSOU.......................9";19;D28A;"1 = FREQUENTEMENTE
+2 = ÀS VEZES
+3 = RARAMENTE
+4 = NUNCA
+8 = NÃO SABE
+9 = RECUSOU"
+D29;"Quando eu usar a palavra ""episódio"" nas próximas questões, quero dizer um período que tenha durado (DURAÇÃO) em que o(a) Sr(a). se sentiu (FRASE-CHAVE) na maior parte do dia, quase todos os dias, e também 
+teve esses outros problemas de que falamos. O episódio termina quando o(a) Sr(a). não sente mais nada disso por duas semanas seguidas. Considerando essa definição, quantos episódios diferentes o(a) Sr(a).teve na 
+sua vida inteira?
+__________ NÚMERO
+NÃO SABE........................................................................998
+RECUSOU.........................................................................999";19;D29;"NÚMERO INTEIRO: 0 A INF
+998 = NÃO SABE
+999 = RECUSOU"
+d29.1;Que idade ao(a) Sr(a).tinha (nesse/em cada um desses) episódio(s)?;19;Not Found;
+D29a;"Episódios como esse às vezes ocorrem como resultado de causas físicas, como uma doença, lesão ou ouso de medicamentos, drogas ou álcool. O(A) Sr(a). acha que os seus episódios de(tristeza/ou/desânimo/ou/
+desinteresse) alguma vez ocorreram como resultado de alguma causa física?
+SIM.....................................1
+NÃO...................................5
+NÃO SABE........................8
+RECUSOU.........................9";19;D29A;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D29b;"O(A) Sr(a). acha que os seus episódios foram sempre resultantes de causas físicas?
+SIM.....................................1
+NÃO...................................5
+NÃO SABE........................8
+RECUSOU.........................9";19;D29B;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D29c;Descreva, brevemente, quais eram as causas físicas?;19;Not Found;
+D29.d;"PONTO DE VERIFICAÇÃO DO ENTREVISTADOR: (VER*D29)
+*D29 É IGUAL A '1'................................................................1
+TODAS AS OUTRASPOSSIBILIDADES...............................2";20;D29D;"1 = D29 É IGUAL A '1'
+2 = TODAS AS OUTRAS POSSIBILIDADES"
+D37;"Pense na primeira vezem sua vida em que teve um episódio que tenha durado(DURAÇÃO), quando na maior parte do dia, quase todos os dias,se sentiu(FRASE-CHAVE) e também teve alguns dos outros problemas
+que acabamos de revisar. (OSr/a Sra.) se lembra da sua idade exata?
+SIM.................................................1
+NÃO...............................................5
+NÃO SABE.....................................8
+RECUSOU.....................................9";20;D37;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D37a;"(SE NEC: Quantos anos o(a) Sr(a). tinha?)
+__________ ANOS
+NÃO SABE......................998
+RECUSOU......................999";20;D37A;"NÚMERO INTEIRO: 0 A INF
+998 = NÃO SABE
+999 = RECUSOU"
+D37b;"Aproximadamente,quantos anos o(a) Sr(a). tinha na primeira vez em que teve um episódio como esse?
+SE ""TODA A MINHA VIDA"" OU ""DESDE QUE ME LEMBRO"", 
+SONDE: Foi antes de o(a) Sr(a). começar a estudar?
+
+SE A RESPOSTA NÃO FOR ""SIM"", SONDE: Foi antes da sua adolescência?
+__________ ANOS
+ANTES DE COMEÇAR A ESTUDAR...............4
+ANTES DA ADOLESCÊNCIA..........................12
+NÃO ANTES DA ADOLESCÊNCIA.................13
+NÃO SABE.....................................................998
+RECUSOU.....................................................999";20;D37B;"NÚMERO INTEIRO: 0 A INF
+998 = NÃO SABE
+999 = RECUSOU"
+D37c;"Quanto tempo durou esse primeiro episódio?
+__________ NÚMERO
+CIRCULE A UNID DE TEMPO: DIAS.....1 SEMANAS.....2 MESES.....3 ANOS.....4
+NÃO SABE.......................................998
+RECUSOU.......................................999";20;D37C, D37CA;"D37C:
+NÚMERO INTEIRO: 0 A IND
+998 = NÃO SABE
+999 = SE RECUSOU
+D37CA:
+1 = DIAS
+2 = SEMANAS
+3 = MESES
+4 = ANOS"
+D37d;"Episódios em que uma pessoa se sente (FRASE-CHAVE) algumas vezes ocorrem sem nenhuma causa e, outras vezes, ocorrem após a morte de uma pessoa próxima, ou em resposta a uma experiência estressante.
+Como foi (o seu/a primeira vez que o(a) Sr(a). teve um) episódio desse tipo---começou sem motivo, após a morte de uma pessoa próxima ou em resposta a alguma experiência estressante que tinha acontecido com
+o(a) Sr(a).?
+SEM CAUSA.......................................................1
+MORTE DE UMA PESSOA PRÓXIMA...............2
+RESPOSTA AO ESTRESSE...............................3
+NÃO SABE..........................................................8
+RECUSOU...........................................................9";20;D37D;"1 = SEM CAUSA
+2 = MORTE DE UMA PESSOA PRÓXIMA
+3 = RESPOSTA AO ESTRESSE
+8 = NÃO SABE
+9 = RECUSOU"
+D37e;"PONTO DE VERIFICAÇÃO DO ENTREVISTADOR: (VER*D29)
+*D29 IGUAL A '1-3'..............................................1
+TODAS AS OUTRAS POSSIBILIDADES............2";21;D37E;"1 = D29 IGUAL A '1-3'
+2 = TODAS AS OUTRAS POSSIBILIDADES"
+D37f.1;"Como acabamos de mencionar, episódios em que uma pessoa se sente (FRASE-CHAVE) algumas vezes ocorrem sem nenhuma causa e outras vezes ocorrem após a morte de uma pessoa próxima, ou em resposta a
+ uma experiência estressante. Considerando todos os episódios que o(a) Sr(a). já teve navida, aproximadamente ...
+... quantos começaram sem motivo?
+_____________ NÚMERO - SEM MOTIVO
+NÃO SABE.......................998
+RECUSOU........................999";21;D37F_1;"NÚMERO INTEIRO: 0 A INF
+998 = NÃO SABE
+999 = RECUSOU"
+D37f.2;"Como acabamos de mencionar, episódios em que uma pessoa se sente (FRASE-CHAVE) algumas vezes ocorrem sem nenhuma causa e outras vezes ocorrem após a morte de uma pessoa próxima, ou em resposta a
+ uma experiência estressante. Considerando todos os episódios que o(a) Sr(a). já teve navida, aproximadamente ...
+... quantos ocorreram em resposta a alguma experiência estressante que tivesse acontecidocom o(a) Sr(a).?
+_____________ NÚMERO - EM RESPOSTA AO ESTRESSE
+NÃO SABE.......................998
+RECUSOU.......................999";21;D37F_2;"NÚMERO INTEIRO: 0 A INF
+998 = NÃO SABE
+999 = RECUSOU"
+D37f.3;"Como acabamos de mencionar, episódios em que uma pessoa se sente (FRASE-CHAVE) algumas vezes ocorrem sem nenhuma causa e outras vezes ocorrem após a morte de uma pessoa próxima, ou em resposta a
+ uma experiência estressante. Considerando todos os episódios que o(a) Sr(a). já teve navida, aproximadamente ...
+... quantos ocorreram após a morte de uma pessoa próxima?
+_____________ NÚMERO - APÓS A MORTE DE UMA PESSOA PRÓXIMA
+NÃO SABE.......................998
+RECUSOU.......................999";21;D37F_3;"NÚMERO INTEIRO: 0 A INF
+998 = NÃO SABE
+999 = RECUSOU"
+d37f.4;"Como acabamos de mencionar, episódios em que uma pessoa se sente (FRASE-CHAVE) algumas vezes ocorrem sem nenhuma causa e outras vezes ocorrem após a morte de uma pessoa próxima, ou em resposta a
+ uma experiência estressante. Considerando todos os episódios que o(a) Sr(a). já teve navida, aproximadamente ...
+... quantos ocorreram como resultado de causas físicas?
+_____________ NÚMERO - COMO RESULTADO DE CAUSAS FÍSICAS
+NÃO SABE.......................998
+RECUSOU.......................999";21;Not Found;
+D37g;"PONTO DE VERIFICAÇÃO DO ENTREVISTADOR: (VER*D29)
+*D29 CODIFICADA '1'......................................1
+TODAS AS OUTRAS POSSIBILIDADES.........2";21;D37G;"1 = D29 CODIFICADA '1'
+2 = TODAS AS OUTRAS POSSIBILIDADES"
+D37h;"O(A) Sr(a).já me contou sobre o seu primeiro episódio depressivo. Aproximadamente, quanto tempo passou entre (LEIA DEVAGAR) o fim do primeiro episódio e o inicio do segundo?
+__________ NÚMERO
+CIRCULE A UNID DE TEMPO: DIAS.....1 SEMANAS.....2 MESES.....3 ANOS.....4
+NÃO SABE.....................................98
+RECUSOU.....................................99";21;D37H_1, D37H_2;"D37H_1:
+NÚMERO INTEIRO: 0 A IND
+998 = NÃO SABE
+999 = SE RECUSOU
+D37H_2:
+1 = DIAS
+2 = SEMANAS
+3 = MESES
+4 = ANOS"
+D37i;"Quanto tempo durou o segundo episódio depressivo?
+__________ NÚMERO
+CIRCULE A UNID DE TEMPO: DIAS.....1 SEMANAS.....2 MESES.....3 ANOS.....4
+NÃO SABE.....................................98
+RECUSOU.....................................99";22;D37I_1, D37I_2;"D37H_1:
+NÚMERO INTEIRO: 0 A IND
+998 = NÃO SABE
+999 = SE RECUSOU
+D37H_2:
+1 = DIAS
+2 = SEMANAS
+3 = MESES
+4 = ANOS"
+D37k;"O segundo episódio começou sem nenhuma causa, ocorreu após a morte de uma pessoa próxima, ocorreu em resposta a alguma experiência estressante que tinha acontecido com o(a) Sr(a)., ou ocorreu como resultado
+de causas físicas, como uma doença, lesão ou o uso de medicamentos, drogas ou álcool?
+SEM CAUSA........................................................1
+MORTE DE UMA PESSOA PRÓXIMA................2
+RESPOSTA AO ESTRESSE...............................3
+CAUSAS FÍSICAS...............................................4
+NÃO SABE..........................................................8
+RECUSOU...........................................................9";22;D37K;"1 = SEM CAUSA
+2 = MORTE DE UMA PESSOA PRÓXIMA
+3 = RESPOSTA AO ESTRESSE
+4 = CAUSA FÍSICA
+8 = NÃO SABE
+9 = RECUSOU"
+D37l;"PONTO DE VERIFICAÇAO DO ENTREVISTADOR: (VER*D29)
+*D29 IGUAL A '2'..............................................1
+TODAS AS OUTRAS POSSIBILIDADES.........2";22;D37L;"1 = D29 IGUAL A 2
+2 = TODAS AS OUTRAS POSSIBILIDADES"
+D37m;"Aproximadamente, quanto tempo passou (LEIA DEVAGAR) entre ofim do segundo episódio e o inicio do terceiro?
+__________ NÚMERO
+CIRCULE A UNID DE TEMPO: DIAS.....1 SEMANAS.....2 MESES.....3 ANOS.....4
+NÃO SABE......................................98
+RECUSOU......................................99";22;D37M_1, D37M_2;"D37M_1:
+NÚMERO INTEIRO: 0 A IND
+998 = NÃO SABE
+999 = SE RECUSOU
+D37M_2:
+1 = DIAS
+2 = SEMANAS
+3 = MESES
+4 = ANOS"
+D37n;"Quanto tempo durou o terceiro episódio depressivo?
+__________ NÚMERO
+CIRCULE A UNID DE TEMPO: DIAS.....1 SEMANAS.....2 MESES.....3 ANOS.....4
+NÃO SABE......................................98
+RECUSOU......................................99";22;D37N_1, D37N_2;"D37N_1:
+NÚMERO INTEIRO: 0 A IND
+998 = NÃO SABE
+999 = SE RECUSOU
+D37N_2:
+1 = DIAS
+2 = SEMANAS
+3 = MESES
+4 = ANOS"
+D37p;"O terceiro episódio começou sem nenhuma causa, ocorreu após a morte de uma pessoa próxima,ocorreu em resposta a alguma experiência estressante que tinha acontecido com o(a) Sr(a)., ouocorreu como resultado
+de causas físicas, como uma doença, lesão ou o uso de medicamentos, drogas ou álcool?
+SEM CAUSA........................................................1
+MORTE DE UMA PESSOA PRÓXIMA................2
+RESPOSTA AO ESTRESSE...............................3
+CAUSAS FÍSICAS...............................................4
+NÃO SABE..........................................................8
+RECUSOU...........................................................9";22;D37P;"1 = SEM CAUSA
+2 = MORTE DE UMA PESSOA PRÓXIMA
+3 = RESPOSTA AO ESTRESSE
+4 = CAUSA FÍSICA
+8 = NÃO SABE
+9 = RECUSOU"
+D38;"O(A) Sr(a). teve algum episódio em que se sentiu (FRASE-CHAVE), que tenha durado (DURAÇÃO) nos últimos 12 meses?
+SIM.................................................1
+NÃO...............................................5
+NÃO SABE.....................................8
+RECUSOU.....................................9";23;D38;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D38.1;"PONTO DE VERIFICAÇÃO DO ENTREVISTADOR: (VER*D29)
+*D29 IGUAL A '1-3'.........................................................1
+TODAS AS OUTRAS POSSIBILIDADES.......................2";23;D38_1;"1 = D29 IGUAL A '1-3'
+2 = TODAS AS OUTRAS POSSIBILIDADES"
+D38a;"Quando foi a última vez em que teve um episódio desse tipo---nos últimos 30 dias, de dois a seis meses atrás ou há mais de seis meses?
+ÚLTIMOS 30 DIAS........................1
+2 A 6 MESES ATRÁS....................2
+MAIS DE 6 MESES.......................3
+NÃO SABE....................................8
+RECUSOU....................................9";23;D38A;"1 = ÚLTIMOS 30 DIAS
+2 = 2 A 6 MESES ATRÁS
+3 = MAIS DE 6 MESES
+8 = NÃO SABE
+9 = RECUSOU"
+D38a.1;"Lembre-se que a palavra ""episódio"" quer dizer [LEIA DEVAGAR] um período que tenha durado(DURAÇÃO) em que quase todos os dias, o(a) Sr(a). se sentiu (FRASE-CHAVE) e também teve esses outros problemas de
+que falamos. O episódio termina quando o(a) Sr(a). não sente mais nada disso por duas semanas seguidas. Considerando essa definição, quantos episódios diferentes o(a)Sr(a). teve nos últimos 12 meses?
+____________NÚMERO
+NÃO SABE...................................998
+RECUSOU...................................999";23;D38A_1;"NÚMERO INTEIRO: 0 A INF
+998 = NÃO SABE
+999 = RECUSOU"
+D38a.2;"PONTO DE VERIFICAÇÃO DO ENTREVISTADOR: (VER*D38a.1)
+*D38a.1 IGUAL A '1'.........................................1
+TODAS AS OUTRAS POSSIBILIDADES.........2";23;D38A_2;"1 = D38a.1 IGUAL A '1'
+2 = TODAS AS OUTRAS POSSIBILIDADES"
+D38a.3;"Em que mês esse episódio começou?
+________/________
+    MÊS   /     ANO
+NÃO SABE.....................................998
+RECUSOU.....................................999";23;D38A_3_5, D38A_3A_;"D38_3_5:
+NÚMERO INTEIRO: 1 A 12
+98 = NÃO SABE
+99 = RECUSOU
+D38A_3A_:
+NÚMERO INTEIRO: 0 A INF
+9998 = NÃO SABE
+9999 = SE RECUSOU"
+D38a.5;"PONTO DE VERIFICAÇÃO DO ENTREVISTADOR: (VER*D38a)
+*D38a CODIFICADA '1'....................................1
+TODAS AS OUTRAS POSSIBILIDADES.........2";23;D38A_5;"1 = D38a CODIFICADA '1'
+2 = TODAS AS OUTRAS POSSIBILIDADES"
+D38a.6;"Esse episódio já terminou ou ainda está acontecendo?
+TERMINOU...................................................1
+ACONTECENDO..........................................5
+NÃO SABE....................................................8
+RECUSOU.....................................................9";23;D38A_6;"1 = TERMINOU
+5 = ACONTECENDO
+8 = NÃO SABE
+9 = RECUSOU"
+D38a.7;"Quanto tempo durou o primeiro desses (NÚMERO DA*D38a.1) episódios?
+____________NÚMERO
+CIRCULE A UNID DE TEMPO: DIAS.....1 SEMANAS.....2 MESES.....3 ANOS.....4
+NÃO SABE.....................................998
+RECUSOU.....................................999";24;D38A_7A, D38A_7B;"D38A_7A:
+NÚMERO INTEIRO: 0 A IND
+998 = NÃO SABE
+999 = SE RECUSOU
+D38A_7B:
+1 = DIAS
+2 = SEMANAS
+3 = MESES
+4 = ANOS"
+D38a.8;"PONTO DE VERIFICAÇÃO DO ENTREVISTADOR: (VER*D38a)
+*D38a CODIFICADA '1'...................................1
+TODAS AS OUTRAS POSSIBILIDADES........2";24;D38A_8;"1 = D38a CODIFICADA '1'
+2 = TODAS AS OUTRAS POSSIBILIDADES"
+D38a.9;"O último episódio já terminou ou ainda está acontecendo?
+TERMINOU...................................................1
+ACONTECENDO..........................................5
+NÃO SABE....................................................8
+RECUSOU.....................................................9";24;D38A_9;"1 = TERMINOU
+5 = ACONTECENDO
+8 = NÃO SABE
+9 = RECUSOU"
+D38b;"Considerando os últimos 12 meses, em quantos dos 365 dias, o(a) Sr(a). esteve em um episódio depressivo?
+____________DIAS
+NÃO SABE......................998
+RECUSOU......................999";24;D38B;"NÚMERO INTEIRO: 0 A 365
+998 = NÃO SABE
+999 = RECUSOU"
+D38.b.1;"PONTO DE VERIFICAÇÃO DO ENTREVISTADOR: (VER*D29)
+*D29 IGUAL A '1-3'..........................................1
+TODAS AS OUTRAS POSSIBILIDADES........2";24;D38B_1;"1 = D29 IGUAL A '1'
+2 = TODAS AS OUTRAS POSSIBILIDADES"
+D38c;"Quantos anos o(a) Sr(a). tinha na última vezem que esteve em um episódio depressivo?
+_____________ ANOS
+NÃO SABE......................998
+RECUSOU......................999";24;D38C;"NÚMERO INTEIRO: 0 A INF
+998 = NÃO SABE
+999 = RECUSOU"
+D39;"Quanto tempo durou o episódio mais longo que o(a) Sr(a). já teve quando estava (FRASE-CHAVE) e também tinha esses outros problemas de que falamos durante a maior parte do dia,quase todos os dias?
+____________NÚMERO
+CIRCULE A UNID DE TEMPO: DIAS.....1 SEMANAS.....2 MESES.....3 ANOS.....4
+NÃO SABE.....................................998
+RECUSOU.....................................999";24;D39A, D39B;"D39A:
+NÚMERO INTEIRO: 0 A IND
+998 = NÃO SABE
+999 = SE RECUSOU
+D39B:
+1 = DIAS
+2 = SEMANAS
+3 = MESES
+4 = ANOS"
+D40;"PONTO DE VERIFICAÇÃO DO ENTREVISTADOR: (VER*D39)
+EPISÓDIO MAIS LONGO DUROU MENOS QUE 14 DIAS................1
+TODAS AS OUTRAS POSSIBILIDADES............................................2";25;D40;"1 = EPISÓDIO MAIS LONGO DUROU MENOS QUE 14 DIAS
+2 = TODAS AS OUTRAS POSSIBILIDADES"
+D41;"Houve alguma época na sua vida, que tenha durado um ano inteiro ou mais, em que o(a) Sr(a). teve episódios em que se sentia (FRASE-CHAVE) por vários dias ou mais,quase todos os meses?
+SIM.................................................1
+NÃO...............................................5
+NÃO SABE.....................................8
+RECUSOU.....................................9";25;D41;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D42;"Quantos anos o(a) Sr(a). tinha na primeira vez em que teve um ano como esse, em que teve um episódio quase todos os meses?
+_____________ ANOS
+NÃO SABE......................998
+RECUSOU......................999";25;D42;"NÚMERO INTEIRO: 0 A INF
+998 = NÃO SABE
+999 = RECUSOU"
+D42.1;"Quantos desses episódios foram desencadeados por alguma experiência estressante?---todos, a maior parte,alguns, ou nenhum?
+TODOS...........................................1
+A MAIOR PARTE............................2
+ALGUNS.........................................3
+NENHUM.......................................4
+NÃO SABE....................................8
+RECUSOU.....................................9";25;D42_1;"1 = TODOS
+2 = A MAIOR PARTE
+3 = ALGUNS
+4 = NENHUM
+8 = NÃO SABE
+9 = RECUSOU"
+D43;"Em quantos anos diferentes de sua vida o(a) Sr(a). teve um episódio em que se sentia (FRASE-CHAVE) quase todos os meses?
+____________ ANOS
+NÃO SABE....................................998
+RECUSOU....................................999";25;D43;"NÚMERO INTEIRO: 0 A INF
+998 = NÃO SABE
+999 = RECUSOU"
+D44;"PONTO DE VERIFICAÇÃO DO ENTREVISTADOR: (VER*D43)
+*D43 IGUAL A '1'..................................................................................1
+TODAS AS OUTRAS POSSIBILIDADES.............................................2";25;D44;"1 = D43 IGUAL A '1'
+2 = TODAS AS OUTRAS POSSIBILIDADES"
+D45;"Qual é o maior número deanos seguidos nos quais o(a) Sr(a). teve um episódio em que se sentia (FRASE-CHAVE) quase todos os meses?
+____________ ANOS
+NÃO SABE....................................998
+RECUSOU....................................999";25;D45;"NÚMERO INTEIRO: 0 A INF
+998 = NÃO SABE
+999 = RECUSOU"
+D46;"(O Sr/a Sra.) já teve alguma vez um período que tenha durado um ano inteiro ou mais, em que esteve em um episódio na maior parte dos dias?
+SIM.................................................1
+NÃO...............................................5
+NÃO SABE.....................................8
+RECUSOU.....................................9";26;D46;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D47;"E quantos anos o(a) Sr(a). tinha na primeira vez em que teve um ano como esse (quando esteve em um episódio na maior parte dos dias)?
+_____________ ANOS DE IDADE
+NÃO SABE....................................998
+RECUSOU....................................999";26;D47;"NÚMERO INTEIRO: 0 A INF
+998 = NÃO SABE
+999 = RECUSOU"
+D48;"Em quantos anos diferentes de sua vida o(a) Sr(a). esteve em um episódio em que se sentiu (FRASE-CHAVE) na maior parte dos dias?
+____________ ANOS
+NÃO SABE....................................998
+RECUSOU....................................999";26;D48;"NÚMERO INTEIRO: 0 A INF
+998 = NÃO SABE
+999 = RECUSOU"
+D49;"PONTO DE VERIFICAÇÃO DO ENTREVISTADOR: (VER *D48)
+*D48 IGUAL A '1'..................................................................................1
+TODAS AS OUTRAS POSSIBILIDADES.............................................2";26;D49;"1 = D48 IGUAL A '1'
+2 = TODAS AS OUTRAS POSSIBILIDADES"
+D50;"Qual é o maior número de anos seguido sem que o(a) Sr(a). esteve um episódio depressivo na maior parte dos dias?
+____________ ANOS
+NÃO SABE....................................998
+RECUSOU....................................999";26;D50;"NÚMERO INTEIRO: 0 A INF
+998 = NÃO SABE
+999 = RECUSOU"
+D54;"Em quantos anos diferentes de sua vida o(a) Sr(a). teve pelo menos um episódio depressivo?
+____________ ANOS
+NÃO SABE....................................998
+RECUSOU....................................999";26;D54;"NÚMERO INTEIRO: 0 A INF
+998 = NÃO SABE
+999 = RECUSOU"
+D55;"PONTO DE VERIFICAÇÃODO ENTREVISTADOR: (VER *D54)
+*D54 IGUAL A '1'............................................................1
+TODAS AS OUTRAS POSSIBILIDADES.......................2";26;D55;"1 = D54 IGUAL A '1'
+2 = TODAS AS OUTRAS POSSIBILIDADES"
+D56;"Qual é o maior número de anos seguidos nos quais o(a) Sr(a). teve pelo menos um episódio por ano?
+____________ ANOS
+NÃO SABE....................................998
+RECUSOU....................................999";27;D56;"NÚMERO INTEIRO: 0 A INF
+998 = NÃO SABE
+999 = RECUSOU"
+D57;"PONTO DE VERIFICAÇÃO DO ENTREVISTADOR: (VER *D39)
+*D39 IGUAL A '12 MESES OU MAIS'.................................................1
+TODAS AS OUTRAS POSSIBILIDADES............................................2";27;D57;"1 = D39 IGUAL A '12 MESES OU MAIS'
+2 = TODAS AS OUTRAS POSSIBILIDADES"
+D58;"(O Sr/a Sra.) já teve alguma vez um período que tenha durado um ano inteiro ou mais em que esteve em um episódio na maior parte dos dias?
+SIM....................................................1
+NÃO...................................................5
+NÃO SABE........................................8
+RECUSOU.........................................9";27;D58;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D59;"Em cerca de quantos anos de sua vida o(a) Sr(a). esteve em um episódio na maior parte dos dias?
+____________ ANOS
+NÃO SABE....................................998
+RECUSOU....................................999";27;D59;"NÚMERO INTEIRO: 0 A INF
+998 = NÃO SABE
+999 = RECUSOU"
+D59a;"E quantos anos o(a) Sr(a). tinha na primeira vez em que teve um ano como esse (quando esteve em um episódio depressivo na maior parte dos dias)?
+____________ ANOS
+NÃO SABE....................................998
+RECUSOU....................................999";27;D59A;"NÚMERO INTEIRO: 0 A INF
+998 = NÃO SABE
+999 = RECUSOU"
+D60;"PONTO DE VERIFICAÇÃO DO ENTREVISTADOR: (VER *D59)
+*D59 IGUAL A '1'.....................................................1
+TODAS AS OUTRAS POSSIBILIDADES................2";27;D60;"1 = D59 IGUAL A '1'
+2 = TODAS AS OUTRAS POSSIBILIDADES"
+D61;"Qual é o maior número de anos seguidos em que o(a) Sr(a). esteve em um episódio depressivo na maior parte dos dias?
+____________ ANOS
+NÃO SABE....................................998
+RECUSOU....................................999";27;D61;"NÚMERO INTEIRO: 0 A INF
+998 = NÃO SABE
+999 = RECUSOU"
+D62.1;"PONTO DE VERIFICAÇÃO DO ENTREVISTADOR: (VER *D38)
+*D38 CODIFICADA '1'................................................1
+TODAS AS OUTRASPOSSIBILIDADES....................2";27;D62_1;"1 = D38 IGUAL A '1'
+2 = TODAS AS OUTRAS POSSIBILIDADES"
+D62.2;"PONTO DE VERIFICAÇÃO DO ENTREVISTADOR
+R SABE LER..................................................................1
+TODAS AS OUTRASPOSSIBILIDADES.......................2";28;D62_2;"1 = R SABE LER
+2 = TODAS AS OUTRAS POSSIBILIDADES"
+D62.3;"(CAD, PG 6-8) Por favor, olhe as páginas 6, 7 e 8 de seu caderno. Para responder as próximas perguntas, pense no período de (DURAÇÃO) durante os últimos 12 meses quando (sua tristeza/ou/ seu desânimo/ou/ seu
+desinteresse) foi mais intensa(o) e freqüente. Por favor, leia cada uma das 14 séries de frases nas páginas 6 a 8do seu caderno e circule a resposta em cada uma delas que melhor descreve como o(a) Sr(a). estava
+passando (naqueles/naquelas DURAÇÃO). Ao terminar cada série, por favor me diga o número da frase que assinalou.";28;Not Found;
+D64a;"A primeira série se refere a dificuldades para dormir:
+Um: O(A) Sr(a). demorava menos de 30 minutos para pegar no sono.
+Dois: O(A) Sr(a). demorava no mínimo 30 minutos para pegar no sono, menos do que a metade das noites.
+Três: O(A) Sr(a). demorava no mínimo 30 minutos para pegar no sono, mais do que a metade das noites.
+Quatro: O(A) Sr(a). demorava mais de 60 minutos para pegar no sono, mais do que a metade das noites.
+
+(SE NEC: Qual dessas quatro frases melhor representa o que ocorreu com o(a) Sr(a). durante esses(as)(DURAÇÃO) piores, em que se sentiu(FRASE-CHAVE) nos últimos 12 meses?)
+
+______________ NÚMERO DA FRASE
+NÃO SABE....................................998
+RECUSOU....................................999";28;D64A;"1 = DEMORAVA MENOS DE 30 MINUTOS PARA PEGAR
+NO SONO
+2 = DEMORAVA NO MÍNIMO 30 MINUTOS PARA PEGAR
+NO SONO, MENOS DO QUE METADE DAS NOITES
+3 = DEMORAVA NO MÍNIMO 30 MINUTOS PARA PEGAR
+NO SONO, MAIS DO QUE METADE DAS NOITES
+4 = DEMORAVA MAIS DE 60 MINUTOS PARA PEGAR
+NO SONO, MAIS DO QUE A METADE DAS NOITES
+998 = NÃO SABE
+999 = RECUSOU"
+D64b;"A próxima série se refere a acordar durante a noite:
+Um: O(A) Sr(a). não acordava durante a noite.
+Dois:O(A) Sr(a). tinha um sono inquieto, leve, com alguns breves despertares a cada noite.
+Três:O(A) Sr(a). acordava no mínimo uma vez durante a noite, mas voltava a dormir facilmente.
+Quatro:O(A) Sr(a). acordava mais de uma vez durante a noite e ficava acordado(a) por 20 minutos ou mais, eisso ocorria em mais do que a metade das noites.
+
+(SE NEC: Qual dessas quatro frases melhor representa o que ocorreu com o(a) Sr(a). durante esses(as)(DURAÇÃO) piores,em que se sentiu(FRASE-CHAVE) nos últimos 12 meses?)
+
+______________ NÚMERO DA FRASE
+NÃO SABE....................................998
+RECUSOU....................................999";28;D64B;"1 = NÃO ACORDAVA DURANTE A NOITE
+2 = TINHA UM SONO LEVE, INQUIETO, COM ALGUNS
+LEVES DESPERTARES A CADA NOITE
+3 = ACORDAVA NO MÍNIMO UMA VEZ DURANTE A NOITE,
+MAS VOLTAVA A DORMIR FACILMENTE
+4 = ACORDAVA MAIS DE UMA VEZ DURANTE A NOITE E
+FICAVA ACORDADO POR 20 MINUTOS OU MAIS, E ISSO
+OCORRIA EM MAIS DA METADE DAS NOITES
+998 = NÃO SABE
+999 = RECUSOU"
+D64c;"A próxima série se refere a acordar cedo demais de manhã:
+Um: Na maior parte dos dias, o(a) Sr(a). acordava no máximo 30 minutos antes do que precisava.
+Dois: Em mais da metade dos dias, o(a) Sr(a). acordava mais de 30 minutos antes do que precisava.
+Três: Quase sempre o(a) Sr(a). acordava no mínimo cerca de uma hora antes do que precisava, mas às vezes voltava a dormir.
+Quatro:O(A) Sr(a). acordava no mínimo uma hora antes do que precisava e não conseguia voltar a dormir.
+
+(SE NEC: Qual dessas quatro frases melhor representa o que ocorreu com o(a) Sr(a). durante esses(as)(DURAÇÃO) piores, em que se sentiu(FRASE-CHAVE) nos últimos 12 meses?)
+
+______________ NÚMERO DA FRASE
+NÃO SABE....................................998
+RECUSOU....................................999";29;D64C;"1 = NA MAIOR PARTE DOS DIAS, ACORDAVA 
+NO MÁXIMO 30 MINUTOS ANTES DO QUE PRECISAVA
+2 = EM MAIS DA METADE DOS DIAS, ACORDAVA MAIS
+DE 30 MINUTOS ANTES DO QUE PRECISAVA
+3 = QUASE SEMPRE ACORDAVA NO MÍNIMO CERCA
+DE UMA HORA ANTES DO QUE PRECISAVA, MAS ÀS 
+VEZES VOLTAVAA DORMIR
+4 = ACORDAVA NO MÍNIMO UMA HORA ANTES
+DO QUE PRECISAVA E NÃO CONSEGUIA VOLTAR A
+DORMIR
+998 = NÃO SABE
+999 = RECUSOU"
+D64d;"A próxima série se refere à quantidade de sono que o(a) Sr(a). tinha a cada noite:
+Um: O(A) Sr(a). dormia no máximo 7 a 8 horas por noite, sem cochilar durante o dia.
+Dois: O(A) Sr(a). dormia no máximo 10 horas em um período de 24 horas, incluindo cochilos.
+Três: O(A) Sr(a). dormia no máximo 12 horas em um período de 24 horas, incluindo cochilos.
+Quatro: O(A) Sr(a). dormia mais de 12 horas em um período de 24 horas, incluindo cochilos.
+
+(SE NEC: Qual dessas quatro frases melhor representa o que ocorreu com o(a) Sr(a). durante esses(as)(DURAÇÃO) piores, em que se sentiu(FRASE-CHAVE) nos últimos 12 meses?)
+
+______________ NÚMERO DA FRASE
+NÃO SABE....................................998
+RECUSOU....................................999";29;D64D;"1 = DORMIA NO MÁXIMO 7 A 8 HORAS POR NOITE, SEM 
+COCHILAR DURANTE O DIA.
+2 = DORMIA NO MÁXIMO 10 HORAS EM UM PERÍODO DE 
+24 HORAS, INCLUINDO COCHILOS.
+3 = DORMIA NO MÁXIMO 12 HORAS EM UM PERÍODO DE 
+24 HORAS, INCLUINDO COCHILOS.
+4 = DORMIA MAIS DE 12 HORAS EM UM PERÍODO DE 24 
+HORAS, INCLUINDO COCHILOS
+998 = NÃO SABE
+999 = RECUSOU"
+D64e;"A próxima série se refere a sentimentos de tristeza:
+Um: O(A) Sr(a). não se sentia triste.
+Dois: O(A) Sr(a). se sentia triste menos da metade do tempo.
+Três:O(A) Sr(a). se sentia triste mais da metade do tempo.
+Quatro: O(A) Sr(a). se sentia triste quase o tempo todo.
+
+(SE NEC: Qual dessas quatro frases melhor representa o que ocorreu com o(a) Sr(a). durante esses(as)(DURAÇÃO) piores, em que se sentiu(FRASE-CHAVE) nos últimos 12 meses?)
+
+______________ NÚMERO DA FRASE
+NÃO SABE....................................998
+RECUSOU....................................999";29;D64E;"1 = NÃO SE SENTIA TRISTE
+2 = SE SENTIA TRISTE MENOS DA METADE DO TEMPO
+3 = SE SENTIA TRISTE MAIS DA METADE DO TEMPO
+4 = SE SENTIA TRISTE QUASE O TEMPO TODO
+998 = NÃO SABE
+999 = RECUSOU"
+D64f;"A próxima série se refere a sua capacidade de concentração e de tomar decisões:
+Um: Não houve mudança na sua capacidade habitual de se concentrar ou de tomar decisões.
+Dois: Às vezes o(a) Sr(a). se sentia indeciso(a) ou achava que sua atenção se dispersava.
+Três: Na maior parte do tempo, o(a) Sr(a). tinha que se esforçar para manter sua atenção ou tomar decisões.
+Quatro: O(A) Sr(a). não conseguia se concentrar o suficiente para ler ou não conseguia tomar decisões, mesmo que fossem pouco importantes.
+
+(SE NEC: Qual dessas quatro frases melhor representa o que ocorreu com o(a) Sr(a). durante esses(as)(DURAÇÃO) piores, em que se sentiu(FRASE-CHAVE) nos últimos 12 meses?)
+
+______________ NÚMERO DA FRASE
+NÃO SABE....................................998
+RECUSOU....................................999";30;D64F;"1 = NÃO HOUVE MUDANÇA NA SUA CAPACIDADE 
+HABITUAL DE SE CONCENTRAR OU DE TOMAR DECISÕES
+2 = SE SENTIA INDECISO(A) OU ACHAVA QUE SUA 
+ATENÇÃO SE DISPERSAVA
+3 = NA MAIOR PARTE DO TEMPO, TINHA QUE SE 
+ESFORÇAR PARA MANTER SUA ATENÇÃO OU TOMAR 
+DECISÕES
+4 = NÃO CONSEGUIA SE CONCENTRAR O SUFICIENTE 
+PARA LER OU NÃO CONSEGUIA TOMAR DECISÕES, 
+MESMO QUE FOSSEM POUCO IMPORTANTES
+998 = NÃO SABE
+999 = RECUSOU"
+D64g;"A próxima série se refere a sentir-se ""por baixo"":
+Um: O(A) Sr(a). se sentia com tanto valor e mérito quanto as outras pessoas.
+Dois: O(A) Sr(a). se censurava mais do que habitualmente.
+Três: O(A) Sr(a). acreditava que causava problemas aos outros.
+Quatro: O(A) Sr(a). pensava com freqüência em grandes e pequenos defeitos em si mesmo(a).
+
+(SE NEC: Qual dessas quatro frases melhor representa o que ocorreu com o(a) Sr(a). durante esses(as)(DURAÇÃO) piores, em que se sentiu(FRASE-CHAVE) nos últimos 12 meses?)
+
+______________ NÚMERO DA FRASE
+NÃO SABE....................................998
+RECUSOU....................................999";30;D64G;"1 = SE SENTIA COM TANTO VALOR E MÉRITO QUANTO AS
+OUTRAS PESSOAS
+2 = SE CENSURAVA MAIS DO QUE HABITUALMENTE
+3 = ACREDITAVA QUE CAUSAVA PROBLEMAS AOS OUTROS
+4 = PENSAVA COM FREQÜÊNCIA EM GRANDES E 
+PEQUENOS DEFEITOS EM SI MESMO(A)
+998 = NÃO SABE
+999 = RECUSOU"
+D64h;"A próxima série se refere ao interesse em suas atividades do dia-a-dia:
+Um: Não houve mudança quanto ao seu interesse em outras pessoas ou atividades.
+Dois: O(A) Sr(a). notou que estava menos interessado em pessoas ou atividades.
+Três: O(A) Sr(a). notou que tinha interesse somente em uma ou duas das atividades que antes realizava.
+Quatro: O(A) Sr(a). não tinha praticamente nenhum interesse nas atividades que antes realizava.
+
+(SE NEC: Qual dessas quatro frases melhor representa o que ocorreu com o(a) Sr(a). durante esses(as)(DURAÇÃO) piores, em que se sentiu(FRASE-CHAVE) nos últimos 12 meses?)
+
+______________ NÚMERO DA FRASE
+NÃO SABE....................................998
+RECUSOU....................................999";30;D64H;"1 = NÃO HOUVE MUDANÇA QUANTO AO SEU INTERESSE
+EM OUTRAS PESSOAS OU ATIVIDADES
+2 = NOTOU QUE ESTAVA MENOS INTERESSADO EM
+PESSOAS OU ATIVIDADES
+3 = NOTOU QUE TINHA INTERESSE SOMENTE EM UMA OU
+DUAS DAS ATIVIDADES QUE ANTES REALIZAVA
+4 = NÃO TINHA PRATICAMENTE NENHUM INTERESSE NAS
+ATIVIDADES QUE ANTES REALIZAVA
+998 = NÃO SABE
+999 = RECUSOU"
+D64i;"A próxima série se refere a sua energia:
+Um: Não houve mudança no seu nível habitual de atividade.
+Dois: O(A) Sr(a). ficava cansado(a) mais facilmente do que o habitual.
+Três: O(A) Sr(a). tinha que fazer um grande esforço para começar ou concluir suas atividades do dia-a-dia (por exemplo, fazer compras, deveres de casa, cozinhar ou ir trabalhar).
+Quatro:O(A) Sr(a). realmente não conseguia realizar a maior parte de suas atividades do dia-a-dia porque simplesmente não tinha energia.
+
+(SE NEC: Qual dessas quatro frases melhor representa o que ocorreu com o(a) Sr(a). durante esses(as)(DURAÇÃO) piores, em que se sentiu(FRASE-CHAVE) nos últimos 12 meses?)
+
+______________ NÚMERO DA FRASE
+NÃO SABE....................................998
+RECUSOU....................................999";31;D64I;"1 = NÃO HOUVE MUDANÇA NO SEU NÍVEL HABITUAL DE
+ATIVIDADE
+2 = FICAVA CANSADO(A) MAIS FACILMENTE DO QUE O
+HABITUAL
+3 = TINHA QUE FAZER UM GRANDE ESFORÇO PARA
+COMEÇAR OU CONCLUIR SUAS ATIVIDADES DO DIA-A-DIA
+(POR EXEMPLO, FAZER COMPRAS, DEVERES DE CASA,
+COZINHAR OU IR TRABALHAR)
+4 = REALMENTE NÃO CONSEGUIA REALIZAR A MAIOR
+PARTE DE SUAS ATIVIDADES DO DIA-A-DIA PORQUE
+SIMPLESMENTE NÃO TINHA ENERGIA.
+998 = NÃO SABE
+999 = RECUSOU"
+D64j;"A próxima série se refere a mudanças no seu apetite:
+Um: Não houve mudanças no seu apetite habitual.
+Dois: Às vezes, o(a) Sr(a). comia com menor freqüência ou em menor quantidade do que o habitual.
+Três: O(A) Sr(a). comia muito menos do que o habitual, necessitando esforçar-se para comer.
+Quatro: O(A) Sr(a). raramente comia em um período de 24 h., e só o fazia com um imenso esforço pessoal ou quando alguém o(a) convencia a comer.
+Cinco: O(A) Sr(a). sentia a necessidade de comer com maior freqüência do que o habitual.
+Seis: Regularmente, o(a) Sr(a). comia com maior freqüência ou em maior quantidade do que o habitual.
+Sete: O(A) Sr(a). sentia impulsos para comer demais, tanto nas refeições, quanto entre elas.
+
+(SE NEC: Qual dessas quatro frases melhor representa o que ocorreu com o(a) Sr(a). durante esses(as)(DURAÇÃO) piores, em que se sentiu(FRASE-CHAVE) nos últimos 12 meses?)
+
+______________ NÚMERO DA FRASE
+NÃO SABE....................................998
+RECUSOU....................................999";31;D64J;"1 = NÃO HOUVE MUDANÇAS NO SEU APETITE HABITUAL
+2 = ÀS VEZES, O(A) SR(A). COMIA COM MENOR
+FREQÜÊNCIA OU EM MENOR QUANTIDADE DO QUE O
+HABITUAL
+3 = COMIA MUITO MENOS DO QUE O HABITUAL,
+NECESSITANDO ESFORÇAR-SE PARA COMER
+4 = RARAMENTE COMIA EM UM PERÍODO DE 24 H., E SÓ
+O FAZIA COM UM IMENSO ESFORÇO PESSOAL OU QUANDO
+ALGUÉM O(A) CONVENCIA A COMER
+5 = SENTIA A NECESSIDADE DE COMER COM MAIOR
+FREQÜÊNCIA DO QUE O HABITUAL
+6 = REGULARMENTE, COMIA COM MAIOR FREQÜÊNCIA OU
+EM MAIOR QUANTIDADE DO QUE O HABITUAL
+7 = SENTIA IMPULSOS PARA COMER DEMAIS, TANTO NAS
+REFEIÇÕES, QUANTO ENTRE ELAS
+998 = NÃO SABE
+999 = RECUSOU"
+D64k;"A próxima série se refere a mudanças no seu peso:
+Um: O(A) Sr(a). não teve mudança no seu peso.
+Dois: Acha que perdeu um pouco de peso.
+Três: Perdeu 1 kg ou mais.
+Quatro: Perdeu 2,5 kg ou mais.
+Cinco: Acha que ganhou um pouco de peso.
+Seis: Ganhou 1 kg ou mais.
+Sete: Ganhou 2,5 kg ou mais.
+
+(SE NEC: Qual dessas quatro frases melhor representa o que ocorreu com o(a) Sr(a). durante esses(as)(DURAÇÃO) piores, em que se sentiu(FRASE-CHAVE) nos últimos 12 meses?)
+
+______________ NÚMERO DA FRASE
+NÃO SABE....................................998
+RECUSOU....................................999";31;D64K;"1 = NÃO TEVE MUDANÇA NO SEU PESO
+2 = ACHA QUE PERDEU UM POUCO DE PESO
+3 = PERDEU 1 KG OU MAIS
+4 = PERDEU 2,5 KG OU MAIS
+5 = ACHA QUE GANHOU UM POUCO DE PESO
+6 = GANHOU 1 KG OU MAIS
+7 =GANHOU 2,5 KG OU MAIS
+998 = NÃO SABE
+999 = RECUSOU"
+D64l;"A próxima série se refere a pensamentos de morte ou suicídio:
+Um: O(A) Sr(a). não pensava em morte ou suicídio.
+Dois: Sentia que a vida era vazia ou se perguntava se valia a pena viver.
+Três: Pensava em suicídio ou morte diversas vezes por semana durante vários minutos.
+Quatro: Pensava detalhadamente em suicídio ou morte diversas vezes por dia, ou fez planos específicos para suicidar-se, ou, realmente, tentou tirar sua própria vida.
+
+(SE NEC: Qual dessas quatro frases melhor representa o que ocorreu com o(a) Sr(a). durante esses(as)(DURAÇÃO) piores, em que se sentiu(FRASE-CHAVE) nos últimos 12 meses?)
+
+______________ NÚMERO DA FRASE
+NÃO SABE....................................998
+RECUSOU....................................999";32;D64L;"1 = NÃO PENSAVA EM MORTE OU SUICÍDIO
+2 =  SENTIA QUE A VIDA ERA VAZIA OU SE PERGUNTAVA SE
+VALIA A PENA VIVER
+3 = PENSAVA EM SUICÍDIO OU MORTE DIVERSAS VEZES POR
+SEMANA DURANTE VÁRIOS MINUTOS
+4 = PENSAVA DETALHADAMENTE EM SUICÍDIO OU MORTE
+DIVERSAS VEZES POR DIA, OU FEZ PLANOS ESPECÍFICOS
+PARA SUICIDAR-SE, OU, REALMENTE, TENTOU TIRAR SUA
+PRÓPRIA VIDA
+998 = NÃO SABE
+999 = RECUSOU"
+D64m;"A próxima série se refere a sentir-se lento(a):
+Um: O(A) Sr(a). pensava, falava e se movimentava na sua velocidade habitual.
+Dois: Percebia que o seu pensamento estava mais lento ou sua voz soava fraca ou monótona.
+Três: Necessitava de vários segundos para responder a maioria das questões e o(a) Sr(a). tem certeza de que o seu pensamento estava lento.
+Quatro: Freqüentemente, o(a) Sr(a). era incapaz de responder a perguntas, necessitando esforço extremo.
+
+(SE NEC: Qual dessas quatro frases melhor representa o que ocorreu com o(a) Sr(a). durante esses(as)(DURAÇÃO) piores, em que se sentiu(FRASE-CHAVE) nos últimos 12 meses?)
+
+______________ NÚMERO DA FRASE
+NÃO SABE....................................998
+RECUSOU....................................999";32;D64M;"1 = PENSAVA, FALAVA E SE MOVIMENTAVA NA SUA
+VELOCIDADE HABITUAL
+2 = PERCEBIA QUE O SEU PENSAMENTO ESTAVA MAIS
+LENTO OU SUA VOZ SOAVA FRACA OU MONÓTONA
+3= NECESSITAVA DE VÁRIOS SEGUNDOS PARA RESPONDER
+A MAIORIA DAS QUESTÕES E TEM CERTEZA DE QUE O SEU
+PENSAMENTO ESTAVA LENTO
+4= FREQÜENTEMENTE, ERA INCAPAZ DE RESPONDER A
+PERGUNTAS, NECESSITANDO ESFORÇO EXTREMO
+998 = NÃO SABE
+999 = RECUSOU"
+D64n;"A última série se refere a sentir-se inquieto(a):
+Um: O(A) Sr(a). não se sentia inquieto(a).
+Dois: Freqüentemente o(a) Sr(a). estava agitado(a), apertando as mãosou mudando de posição.
+Três: O(A) Sr(a). tinha impulsos de se movimentar e estava bastante inquieto(a).
+Quatro: Às vezes, o(a) Sr(a). era incapaz de ficar sentado(a), e necessitava se movimentar continuamente.
+
+(SE NEC: Qual dessas quatro frases melhor representa o que ocorreu com o(a) Sr(a). durante esses(as)(DURAÇÃO) piores, em que se sentiu(FRASE-CHAVE) nos últimos 12 meses?)
+
+______________ NÚMERO DA FRASE
+NÃO SABE....................................998
+RECUSOU....................................999";32;D64N;"1 = NÃO SE SENTIA INQUIETO(A).
+2 = FREQÜENTEMENTE ESTAVA AGITADO(A), APERTANDO
+AS MÃOSOU MUDANDO DE POSIÇÃO.
+3 = TINHA IMPULSOS DE SE MOVIMENTAR E ESTAVA
+BASTANTE INQUIETO(A).
+4 = ÀS VEZES, ERA INCAPAZ DE FICAR SENTADO(A), E
+NECESSITAVA SE MOVIMENTAR CONTINUAMENTE
+998 = NÃO SABE
+999 = RECUSOU"
+D66a;"(CAD, PG 9) Nos últimos 12 meses, pense no período que durou um mês ou mais em que (sua tristeza/ou/ seu desânimo/ou/ seu desinteresse) foi mais intensa(o). Usando a escala de 0 a 10 da página 9 de seu caderno,
+onde 0 significa nenhuma interferência e 10 significa interferênciamuito intensa, que número descreve o quanto (sua tristeza/ou/ seu desânimo/ou/ seu desinteresse) interferiu em cada uma das seguintes atividades
+durante esse pior período?
+
+(SE NEC: Até que ponto (sua tristeza/ou/ seu desânimo/ou/ seu desinteresse) interferiu em (ATIVIDADE) durante esse período?)
+
+(SE NEC: O(A) Sr(a). pode usar qualquer número entre 0 e 10 para responder.)
+
+Seus afazeres domésticos, como limpeza,compras e tarefas da casa?
+
+NÃO SE APLICA..................97
+NÃO SABE............................98
+RECUSOU............................99";33;D66A;"NÚMERO INTEIRO DE INTENSIDADE: 0 A 10
+1-3 = LEVE
+4-6 = MODERADA
+7-9 = INTENSA
+10 = INTERFERÊNCIA MUITO INTENSA
+97 = NÃO SE APLICA
+98 = NÃO SABE
+99 = RECUSOU"
+D66b;"Mesmo contexto da D66A (pergunta acima)
+
+Sua capacidade de trabalhar?
+
+NÃO SE APLICA..................97
+NÃO SABE............................98
+RECUSOU............................99";33;D66B;"NÚMERO INTEIRO DE INTENSIDADE: 0 A 10
+1-3 = LEVE
+4-6 = MODERADA
+7-9 = INTENSA
+10 = INTERFERÊNCIA MUITO INTENSA
+97 = NÃO SE APLICA
+98 = NÃO SABE
+99 = RECUSOU"
+D66c;"Mesmo contexto da D66A (duas perguntas acima)
+
+Sua capacidade de estabelecer e manter relacionamentos próximos com outras pessoas?
+
+NÃO SE APLICA..................97
+NÃO SABE............................98
+RECUSOU............................99";33;D66C;"NÚMERO INTEIRO DE INTENSIDADE: 0 A 10
+1-3 = LEVE
+4-6 = MODERADA
+7-9 = INTENSA
+10 = INTERFERÊNCIA MUITO INTENSA
+97 = NÃO SE APLICA
+98 = NÃO SABE
+99 = RECUSOU"
+D66d;"Mesmo contexto da D66A (três perguntas acima)
+
+Sua vida social?
+
+NÃO SE APLICA..................97
+NÃO SABE............................98
+RECUSOU............................99";33;D66D;"NÚMERO INTEIRO DE INTENSIDADE: 0 A 10
+1-3 = LEVE
+4-6 = MODERADA
+7-9 = INTENSA
+10 = INTERFERÊNCIA MUITO INTENSA
+97 = NÃO SE APLICA
+98 = NÃO SABE
+99 = RECUSOU"
+D67;"PONTO DE VERIFICAÇÃO DO ENTREVISTADOR: (VER *D66a-*D66d)
+TODAS AS RESPOSTAS CODIFICADAS '0' OU '97'........................1
+TODAS AS OUTRAS POSSIBILIDADES............................................2";33;D67;"1 = TODAS AS RESPOSTAS CODIFICADAS '0' OU '97' EM D66
+2 = TODAS AS OUTRAS POSSIBILIDADES"
+D68;"Nos últimos 12 meses, aproximadamente quantos dias o(a) Sr(a). esteve totalmente incapaz de trabalhar ou fazer suas atividades habituais por causa de(sua tristeza/ou/ seu desânimo/ou/ seu desinteresse)? 
+
+(SE NEC: O(A) Sr(a). pode usar qualquer número entre 0 e 365 para responder.)
+
+__________ NÚMERO DE DIAS
+NÃO SABE......................998
+RECUSOU.......................999";34;D68;"NÚMERO INTEIRO: 0 A 365
+998 = NÃO SABE
+999 = RECUSOU"
+D72;"Alguma vez na vida, o(a) Sr(a). já conversou com um médico ou outro profissional sobre (sua tristeza/ou/desânimo/ou/ desinteresse)? (Por outro profissional queremos dizer psicólogos, orientadores, conselheiros
+espirituais, herbalistas/fitoterapeutas, acupunturistas ou curandeiros como benzedeira, pai de santo.)
+
+SIM....................................................1
+NÃO...................................................5
+NÃO SABE........................................8
+RECUSOU........................................9";34;D72;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D72a;"Quantos anos o(a) Sr(a). tinha na primeira vez [que conversou com um profissional sobre(sua tristeza/ou/desânimo/ou/ desinteresse)]?
+
+____________ ANOS
+NÃO SABE..............................998
+RECUSOU..............................999";34;D72A;"NÚMERO INTEIRO: 0 A INF
+998 = NÃO SABE
+999 = RECUSOU"
+d72.1;"Que tratamento o(a) Sr(a).recebeu nessa primeira vez?
+SE INF ""Tomei remédio"": #d72.1.1. ESPECIFIQUE QUAL:___________________________________";34;Not Found;
+D84;"Alguma vez o(a) Sr(a). recebeu tratamento para (sua tristeza/ou/desânimo/ou/ desinteresse) que considerou proveitoso ou eficaz?
+
+SIM.........................................................1
+NÃO........................................................5
+NÃO SABE.............................................8
+RECUSOU.............................................9";34;D84;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D84a;"Quantos anos o(a) Sr(a). tinha na primeira vezem que recebeu tratamento eficaz?
+_____________ ANOS
+NÃO SABE.....................................998
+RECUSOU.....................................999";34;D84A;"NÚMERO INTEIRO: 0 A INF
+998 = NÃO SABE
+999 = RECUSOU"
+d84.1;"que tratamento foi esse?
+(SE INF: ""Tomei remédio"": #d84.1.1 ESPECIFIQUE QUAL:_________________________________________________________________________________";34;Not Found;
+D84b;"Com quantos profissionais o(a) Sr(a).chegou a conversar sobre (sua tristeza/ou/ desânimo/ou/desinteresse), antes de receber tratamento eficaz pela primeira vez?
+(______ NÚMERO DE PROFISSIONAIS + 1) = ___________
+NÃO SABE....................98
+RECUSOU.....................99";34;D84B;"NÚMERO INTEIRO: 0 A INF
+998 = NÃO SABE
+999 = RECUSOU"
+D84c;"Com quantos profissionais ao todo o(a) Sr(a). já conversou sobre (sua tristeza/ou/desânimo/ou/desinteresse)?
+_____________ NÚMERO DE PROFISSIONAIS
+NÃO SABE.....................................98
+RECUSOU.....................................99";35;D84C;"NÚMERO INTEIRO: 0 A INF
+998 = NÃO SABE
+999 = RECUSOU"
+D86;"(O Sr/a Sra.) recebeu tratamento profissional para (sua tristeza/ou/desânimo/ou/ desinteresse) em algum momento nos últimos 12 meses?
+SIM...................................1
+NÃO.................................5
+NÃO SABE.......................8
+RECUSOU.......................9";35;D86;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D87;"Alguma vez o(a) Sr(a). teve que passar a noite no hospital por causa de (sua tristeza/ou/ desânimo/ou/desinteresse)?
+SIM..................................................1
+NÃO................................................5
+NÃO SABE.....................................8
+RECUSOU......................................9";35;D87;"1 = SIM
+2 = NÃO
+8 = NÃO SABE
+9 = RECUSOU"
+D87a;"Quantos anos o(a) Sr(a). tinha na primeira vez em que passou a noite no hospital por causa de (sua tristeza/ou/desânimo/ou/ desinteresse)?
+______________ ANOS
+NÃO SABE....................998
+RECUSOU....................999";35;D87A;"NÚMERO INTEIRO: 0 A INF
+998 = NÃO SABE
+999 = RECUSOU"
+D87.1;"Quantos de seus parentes próximos-incluindo seus pais biológicos, irmãos e filhos-já tiveram alguma vez episódios em que se sentiam tristes, desanimados ou desinteressados, que causaram muito sofrimento ou que 
+interferiram na vida deles?
+______________ NÚMERO
+NÃO SABE....................................998
+RECUSOU....................................999";35;D87_1;"NÚMERO INTEIRO: 0 A INF
+998 = NÃO SABE
+999 = RECUSOU"
+d87.1.a;"E entre seus avós, tios e primos?
+______________ NÚMERO
+NÃO SABE.................98
+RECUSOU.................99";35;Not Found;
+D88;"PONTO DE VERIFICAÇÃO DO ENTREVISTADOR: (VER CARTÃO REF, SEÇÃO DERASTREAMENTO).
+SIGA O SALTO PARA O PRIMEIRO ITEM ASSINALADO
+*SC24 ESTÁ ASSINALADO..............................................1
+*SC25a ESTÁ ASSINALADO............................................2
+*SC20 ESTÁ ASSINALADO..............................................4
+*SC20a ESTÁ ASSINALADO............................................5
+*SC27 SÉRIE ESTÁ ASSINALADO..................................6
+*SC29 OU *SC29a ESTÁ ASSINALADO..........................7
+*SC30 ESTÁ ASSINALADO..............................................8
+*SC26 ESTÁ ASSINALADO..............................................9
+*SC26a ESTÁ ASSINALADO...........................................10
+*SC26b ESTÁ ASSINALADO...........................................11
+*SC20.1 ESTÁ ASSINALADO..........................................12
+*SC20.2 ESTÁ ASSINALADO..........................................13
+*SC20.3 ESTÁ ASSINALADO..........................................14
+TODAS AS OUTRAS POSSIBILIDADES.........................15";36;D88;"1 = SC24 ESTÁ ASSINALADO 
+2 = SC25a ESTÁ ASSINALADO
+4 = SC20 ESTÁ ASSINALADO
+5 = SC20a ESTÁ ASSINALADO
+6 = SC27 SÉRIE ESTÁ ASSINALADO
+7 = SC29 OU SC29a ESTÁ ASSINALADO
+8 = SC30 ESTÁ ASSINALADO
+9 = SC26 ESTÁ ASSINALADO
+10 = SC26a ESTÁ ASSINALADO
+11 = SC26b ESTÁ ASSINALADO
+12 = SC20.1 ESTÁ ASSINALADO
+13 = SC20.2 ESTÁ ASSINALADO
+14 = SC20.3 ESTÁ ASSINALADO
+15 = TODAS AS OUTRAS POSSIBILIDADES"
+D89;"PONTO DE VERIFICAÇÃO DO ENTREVISTADOR: (VER CARTÃO REF, SEÇÃO DERASTREAMENTO)
+*SC20.2 ESTÁ ASSINALADO............................................1
+*SC20.3ESTÁ ASSINALADO.............................................2
+TODAS AS OUTRAS POSSIBILIDADES...........................3";36;D89;"1 = SC20.2 ESTÁ ASSINALADO
+2 = SC20.3ESTÁ ASSINALADO
+3 = TODAS AS OUTRAS POSSIBILIDADES"
+;;;;
+Screening;PAPI 5 BRAZIL Depression (D) Port;;;
+Taxa de informação;91,67%;;;
+Variáveis encontradas;165;;;
+Variáveis não encontradas;15;;;
