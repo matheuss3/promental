@@ -1,0 +1,18 @@
+[
+  {
+    "source_name": "SAMPLEID",
+    "alt_name": "id"
+  },
+  {
+    "source_name": "SC1_1",
+    "alt_name": "sexo"
+  },
+  {
+    "source_name": "SC1",
+    "alt_name": "idade"
+  },
+  {
+    "source_name": "dsm_mddh",
+    "alt_name": "possui_depressao"
+  }
+]

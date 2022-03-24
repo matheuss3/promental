@@ -1,41 +1,96 @@
 # Run this app with `python app.py` and
 # visit http://127.0.0.1:8050/ in your web browser.
 
+
 from dash import Dash, html, dcc
+import dash_bootstrap_components as dbc
 import plotly.express as px
+import plotly.graph_objects as go
 import pandas as pd
 import sqlite3
+import numpy as np
 
-app = Dash(__name__)
-
-# assume you have a "long-form" data frame
-# see https://plotly.com/python/px-arguments/ for more options
-df = pd.DataFrame({
-  "Fruit": ["Apples", "Oranges", "Bananas", "Apples", "Oranges", "Bananas"],
-  "Amount": [4, 1, 2, 2, 4, 5],
-  "City": ["SF", "SF", "SF", "Montreal", "Montreal", "Montreal"]
-})
+app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
 con = sqlite3.connect('./database/db.sqlite')
 
-df = pd.read_sql('SELECT possui_depressao FROM dataset_depressao', con)
-print(df.head())
-df_group = df.groupby(['possui_depressao']).size().reset_index(name='counts')
-print(df_group.head())
-fig = px.bar(df_group, x="possui_depressao", y="counts", barmode="group")
+df = pd.read_sql('SELECT * FROM dataset_depressao', con)
+df_group = df.groupby(['possui_depressao', 'sexo']).size().reset_index(name='counts')
+fig = px.bar(df_group, x="possui_depressao", title='Casos positivos e negativos x sexo', 
+            y="counts", color='sexo', barmode="group")
 
-app.layout = html.Div(children=[
+
+df_year_graph = df.groupby(['idade', 'possui_depressao']).size().reset_index(name='counts')
+fig2 = px.line(df_year_graph, x='idade', y='counts', color='possui_depressao', title='Quantidade de positivos e negativos x Idade')
+
+fig3 = go.Figure()
+
+fig3.add_trace(go.Indicator(
+            value = len(df),
+            mode = 'number',
+            title='Qtd pessoas avaliadas',
+            domain = {'x': [0, 0.25], 'y': [0, 0.5]}
+        ))
+
+fig3.add_trace(go.Indicator(
+            value = len(df[df['possui_depressao'] == 1]),
+            mode = 'number',
+            title='Qtd pessoas com depressao',
+            domain = {'x': [0.25, 0.5], 'y': [0, 0.5]}
+        ))
+
+fig3.add_trace(go.Indicator(
+            value = len(df[df['possui_depressao'] == 1]) / len(df) * 100,
+            mode = 'number',
+            title='%',
+            domain = {'x': [0.5, 0.75], 'y': [0, 0.5]}
+        ))
+
+app.layout = dbc.Container([
     html.H1(children='Promental'),
 
     html.Div(children='''
-        Dash: A web application framework for your data.
+        Dashboard desenvolvido para visualização de dados do Promental
     '''),
 
-    dcc.Graph(
-        id='bar-graph',
-        figure=fig
-    )
-])
+    html.Div([
+    dbc.Card(
+        dbc.CardBody([
+            dcc.Graph(
+            id='indicators',
+            figure=fig3
+        ),
+            dbc.Row(
+                [
+                    dbc.Col([
+                        html.Div([
+                            dbc.Card(
+                                dbc.CardBody([
+                                    dcc.Graph(
+                                        id='bar-graph',
+                                        figure=fig
+                                    )
+                                ])
+                            )
+                        ])
+
+                    ], width=3),
+                    dbc.Col([
+                        html.Div([
+                            dbc.Card(
+                                dbc.CardBody([
+                                    dcc.Graph(
+                                        id='line-graph',
+                                        figure=fig2
+                                    )
+                                ])
+                            )
+                        ])
+
+                    ], width=9),
+                ]
+            )]))])
+], fluid=True,)
 
 if __name__ == '__main__':
     app.run_server(debug=True)
