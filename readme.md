@@ -9,10 +9,10 @@ criar um ambiente web para a análise dos dados coletados.
 
 
 ### Características essenciais para a base de dados
-><img src="https://raw.githubusercontent.com/matheuss3/promental-data-visualization/main/arquivos-auxiliares/data-quality.jpeg?token=GHSAT0AAAAAABSN64Q5ZWJZQ7N6RAPTPRNUYSCJVOA" width="500" alt="Data Quality">
+><img src="https://github.com/matheuss3/promental-data-visualization/blob/main/arquivos-auxiliares/data-quality.jpeg?raw=true" width="500" alt="Data Quality">
 
 ### Preview page
-><img src="https://raw.githubusercontent.com/matheuss3/promental-data-visualization/main/images/preview_dashboard.png?token=GHSAT0AAAAAABSN64Q4OUSJLZFLWLGDL2RCYSCJZHQ" width="1200" alt="Preview Page">
+><img src="https://github.com/matheuss3/promental-data-visualization/blob/main/images/preview_dashboard.png?raw=true" width="1200" alt="Preview Page">
 <br>
 
 
