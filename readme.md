@@ -4,7 +4,7 @@
 > Repositório com o sistema para visualização de dados do projeto promental. Utilizando o **Dash** é possível 
 criar um ambiente web para a análise dos dados coletados.
 >#### Características essenciais para a base de dados
-![Data Quality]()
+![Data Quality](https://raw.githubusercontent.com/matheuss3/promental-data-visualization/main/arquivos-auxiliares/Notebook_Megacity_V1/data-quality.jpeg?token=GHSAT0AAAAAABSN64Q4UBVRWSNZ55SHWF36YSCJTYQ)
 |<br>
 >#### Preview page
 ![Preview Pagina]()
