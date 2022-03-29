@@ -1,18 +1,45 @@
 [
   {
     "source_name": "SAMPLEID",
-    "alt_name": "id"
+    "alt_name": "id",
+    "replace": []
   },
   {
     "source_name": "SC1_1",
-    "alt_name": "sexo"
+    "alt_name": "sexo",
+    "replace": [
+      [1, "MASCULINO"],
+      [2, "FEMININO"]
+    ]
   },
   {
     "source_name": "SC1",
-    "alt_name": "idade"
+    "alt_name": "idade",
+    "replace": []
   },
   {
+    "source_name": "SC3",
+    "alt_name": "estado_civil",
+    "replace": [
+      [1, "CASADO"],
+      [2, "SEPARADO"],
+      [3, "DIVORCIADO"],
+      [4, "VIUVO"],
+      [5, "NUNCA SE CASOU"],
+      [8, "NAO SABE"],
+      [9, "RECUSOU"]
+    ]
+  },
+
+
+
+  
+  {
     "source_name": "dsm_mddh",
-    "alt_name": "possui_depressao"
+    "alt_name": "possui_depressao",
+    "replace": [
+      [1, "POSSUI"],
+      [5, "NAO POSSUI"]
+    ]
   }
 ]

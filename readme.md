@@ -3,6 +3,11 @@
 ### Descrição<br>
 > Repositório com o sistema para visualização de dados do projeto promental. Utilizando o **Dash** é possível 
 criar um ambiente web para a análise dos dados coletados.
+>#### Características essenciais para a base de dados
+![Data Quality]()
+|<br>
+>#### Preview page
+![Preview Pagina]()
 
 ### Equipe<br>
 > Alunos: Matheus de Souza<br>

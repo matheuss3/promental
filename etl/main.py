@@ -29,6 +29,10 @@ map_vars = json.load(file_vars)
 columns_mapped = []
 for element in map_vars:
   rename_column(df_in, element['source_name'], element['alt_name'])
+
+  for lst_value in element['replace']:
+    df_in.replace({element['alt_name']: lst_value[0]}, {element['alt_name']: lst_value[1]}, inplace=True)
+
   columns_mapped.append(element['alt_name'])
 
 df_out = df_in[columns_mapped]

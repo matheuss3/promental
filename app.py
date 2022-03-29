@@ -10,7 +10,7 @@ import pandas as pd
 import sqlite3
 import numpy as np
 
-app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+app = Dash(__name__, external_stylesheets=[dbc.themes.SLATE])
 
 con = sqlite3.connect('./database/db.sqlite')
 
@@ -25,27 +25,32 @@ fig2 = px.line(df_year_graph, x='idade', y='counts', color='possui_depressao', t
 
 fig3 = go.Figure()
 
+
+
 fig3.add_trace(go.Indicator(
             value = len(df),
             mode = 'number',
             title='Qtd pessoas avaliadas',
-            domain = {'x': [0, 0.25], 'y': [0, 0.5]}
+            domain = {'x': [0, 0.33], 'y': [0, 1]}
         ))
 
 fig3.add_trace(go.Indicator(
-            value = len(df[df['possui_depressao'] == 1]),
+            value = len(df[df['possui_depressao'] == 'POSSUI']),
             mode = 'number',
             title='Qtd pessoas com depressao',
-            domain = {'x': [0.25, 0.5], 'y': [0, 0.5]}
+            domain = {'x': [0.33, 0.66], 'y': [0, 1]}
         ))
 
 fig3.add_trace(go.Indicator(
-            value = len(df[df['possui_depressao'] == 1]) / len(df) * 100,
+            value = len(df[df['possui_depressao'] == 'POSSUI']) / len(df) * 100,
             mode = 'number',
             title='%',
-            domain = {'x': [0.5, 0.75], 'y': [0, 0.5]}
+            domain = {'x': [0.66, 1], 'y': [0, 1]}
         ))
-
+fig3.update_layout(
+    height=200,
+    margin= { 't': 75, 'r': 75, 'l': 75, 'b': 75 }
+)
 app.layout = dbc.Container([
     html.H1(children='Promental'),
 
