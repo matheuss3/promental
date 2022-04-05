@@ -21,11 +21,16 @@ fig = px.bar(df_group, x="possui_depressao", title='Casos positivos e negativos 
 
 
 df_year_graph = df.groupby(['idade', 'possui_depressao']).size().reset_index(name='counts')
-fig2 = px.line(df_year_graph, x='idade', y='counts', color='possui_depressao', title='Quantidade de positivos e negativos x Idade')
+fig2 = px.histogram(df_year_graph, x='idade', y='counts', title='Quantidade de pessoas entrevistadas x Idade')
+
+df_graph_year_depression = df[df['possui_depressao'] == 'POSSUI'].groupby(['idade', 'possui_depressao']).size().reset_index(name='counts')
+fig4 = px.line(df_graph_year_depression, x='idade', y='counts', title='Quantidade de casos por idade')
+
+fig5 = px.scatter_matrix(df,
+    dimensions=['sexo', 'idade', 'fumante', 'saude_fisica'],
+    color='possui_depressao')
 
 fig3 = go.Figure()
-
-
 
 fig3.add_trace(go.Indicator(
             value = len(df),
@@ -85,7 +90,7 @@ app.layout = dbc.Container([
                             dbc.Card(
                                 dbc.CardBody([
                                     dcc.Graph(
-                                        id='line-graph',
+                                        id='histogram',
                                         figure=fig2
                                     )
                                 ])
@@ -94,7 +99,27 @@ app.layout = dbc.Container([
 
                     ], width=9),
                 ]
-            )]))])
+            )])),
+            html.Div([
+                            dbc.Card(
+                                dbc.CardBody([
+                                    dcc.Graph(
+                                        id='line-graph',
+                                        figure=fig4
+                                    )
+                                ])
+                            )
+                        ]),
+                        html.Div([
+                            dbc.Card(
+                                dbc.CardBody([
+                                    dcc.Graph(
+                                        id='pairplot-graph',
+                                        figure=fig5
+                                    )
+                                ])
+                            )
+                        ])])
 ], fluid=True,)
 
 if __name__ == '__main__':

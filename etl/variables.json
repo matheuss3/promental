@@ -30,10 +30,43 @@
       [9, "RECUSOU"]
     ]
   },
-
-
-
-  
+  {
+    "source_name": "SC7",
+    "alt_name": "fumante",
+    "replace": [
+      [1, "FUMANTE"],
+      [2, "EX-FUMANTE"],
+      [3, "NUNCA FUMOU"],
+      [8, "NAO SABE"],
+      [9, "RECUSOU"]
+    ]
+  },
+  {
+    "source_name": "SC8_1",
+    "alt_name": "saude_fisica",
+    "replace": [
+      [1, "EXCELENTE"],
+      [2, "MUITO BOA"],
+      [3, "BOA"],
+      [4, "RAZOAVEL"],
+      [5, "RUIM"],
+      [8, "NAO SABE"],
+      [9, "RECUSOU"]
+    ]
+  },
+  {
+    "source_name": "SC8_2",
+    "alt_name": "saude_fisica",
+    "replace": [
+      [1, "EXCELENTE"],
+      [2, "MUITO BOA"],
+      [3, "BOA"],
+      [4, "RAZOAVEL"],
+      [5, "RUIM"],
+      [8, "NAO SABE"],
+      [9, "RECUSOU"]
+    ]
+  },
   {
     "source_name": "dsm_mddh",
     "alt_name": "possui_depressao",
