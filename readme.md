@@ -19,7 +19,7 @@ criar um ambiente web para a análise dos dados coletados.
 
 ### Requisitos<br>
 - Python3
-- Libs: [pandas](https://pandas.pydata.org/), [dash](https://dash.plotly.com/)
+- Dependeces: [pandas](https://pandas.pydata.org/), [dash](https://dash.plotly.com/), dash_bootstrap_components
 
 ### Instruções<br>
 **Preparando a base de dados SQLite**
