@@ -1,8 +1,7 @@
 # Projeto Promental
 
 ### Descrição<br>
-> Repositório com o sistema para visualização de dados do projeto promental. Utilizando o **Dash** é possível 
-criar um ambiente web para a análise dos dados coletados.
+> Repositório com o sistema para visualização de dados do projeto promental, utilizando o **Dash** com ele é possível criar um ambiente web para a análise dos dados coletados de forma visual e interativa.
 ### Equipe<br>
 > Alunos: Matheus de Souza<br>
 > Professores: Moisés Omena, Carlos Azevedo
@@ -23,8 +22,8 @@ criar um ambiente web para a análise dos dados coletados.
 
 ### Instruções<br>
 **Preparando a base de dados SQLite**
-1. Criar um banco de dados SQLite chamado de *db.sqlite* na pasta database
-2. Configurar as variáveis no arquivo *config.ini*, com o caminho do dataset e do banco de dados
-3. E executar *main.py* da pasta etl<br>
+- Criar um banco de dados SQLite chamado de *db.sqlite* na pasta database
+- Configurar as variáveis no arquivo *config.ini*, com o caminho do dataset e do banco de dados
+- E executar *main.py* da pasta etl<br>
 **Executando o ambiente web**
-4. Com o banco de dados criado basta executar o *app.py* utilizando o python3
+- Com o banco de dados criado basta executar o *app.py* utilizando o python3
