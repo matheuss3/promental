@@ -56,7 +56,7 @@
   },
   {
     "source_name": "SC8_2",
-    "alt_name": "saude_fisica",
+    "alt_name": "saude_mental",
     "replace": [
       [1, "EXCELENTE"],
       [2, "MUITO BOA"],
@@ -67,6 +67,183 @@
       [9, "RECUSOU"]
     ]
   },
+  {
+    "source_name": "SC20",
+    "alt_name": "ataque_panico",
+    "replace": [
+      [1, "SIM"],
+      [5, "NAO"],
+      [8, "NAO SABE"],
+      [9, "RECUSOU"]
+    ]
+  },
+  {
+    "source_name": "SC20_1",
+    "alt_name": "ataque_raiva_agressao",
+    "replace": [
+      [1, "SIM"],
+      [5, "NAO"],
+      [8, "NAO SABE"],
+      [9, "RECUSOU"]
+    ]
+  },
+  {
+    "source_name": "SC21",
+    "alt_name": "periodo_triste",
+    "replace": [
+      [1, "SIM"],
+      [5, "NAO"],
+      [8, "NAO SABE"],
+      [9, "RECUSOU"]
+    ]
+  },
+  {
+    "source_name": "SC22",
+    "alt_name": "periodo_desanimado",
+    "replace": [
+      [1, "SIM"],
+      [5, "NAO"],
+      [8, "NAO SABE"],
+      [9, "RECUSOU"]
+    ]
+  },
+  {
+    "source_name": "SC23",
+    "alt_name": "periodo_desenteressado",
+    "replace": [
+      [1, "SIM"],
+      [5, "NAO"],
+      [8, "NAO SABE"],
+      [9, "RECUSOU"]
+    ]
+  },
+  {
+    "source_name": "SC24",
+    "alt_name": "periodo_feliz_maniaco",
+    "replace": [
+      [1, "SIM"],
+      [5, "NAO"],
+      [8, "NAO SABE"],
+      [9, "RECUSOU"]
+    ]
+  },
+  {
+    "source_name": "SC25",
+    "alt_name": "periodo_irritado",
+    "replace": [
+      [1, "SIM"],
+      [5, "NAO"],
+      [8, "NAO SABE"],
+      [9, "RECUSOU"]
+    ]
+  },
+  {
+    "source_name": "SC26",
+    "alt_name": "periodo_extrema_preocupacao",
+    "replace": [
+      [1, "SIM"],
+      [5, "NAO"],
+      [8, "NAO SABE"],
+      [9, "RECUSOU"]
+    ]
+  },
+  {
+    "source_name": "SC27A",
+    "alt_name": "medo_animal",
+    "replace": [
+      [1, "SIM"],
+      [5, "NAO"],
+      [8, "NAO SABE"],
+      [9, "RECUSOU"]
+    ]
+  },
+  {
+    "source_name": "SC27B",
+    "alt_name": "medo_agua_tempestade",
+    "replace": [
+      [1, "SIM"],
+      [5, "NAO"],
+      [8, "NAO SABE"],
+      [9, "RECUSOU"]
+    ]
+  },
+  {
+    "source_name": "SC27C",
+    "alt_name": "medo_medido_ferimentos",
+    "replace": [
+      [1, "SIM"],
+      [5, "NAO"],
+      [8, "NAO SABE"],
+      [9, "RECUSOU"]
+    ]
+  },
+  {
+    "source_name": "SC27D",
+    "alt_name": "medo_espaco_fechado",
+    "replace": [
+      [1, "SIM"],
+      [5, "NAO"],
+      [8, "NAO SABE"],
+      [9, "RECUSOU"]
+    ]
+  },
+  {
+    "source_name": "SC27E",
+    "alt_name": "medo_altura",
+    "replace": [
+      [1, "SIM"],
+      [5, "NAO"],
+      [8, "NAO SABE"],
+      [9, "RECUSOU"]
+    ]
+  },
+  {
+    "source_name": "SC27F",
+    "alt_name": "medo_voar",
+    "replace": [
+      [1, "SIM"],
+      [5, "NAO"],
+      [8, "NAO SABE"],
+      [9, "RECUSOU"]
+    ]
+  },
+  {
+    "source_name": "educ_cat",
+    "alt_name": "educacao",
+    "replace": [
+      [1, "SEM EDUCACAO"],
+      [2, "PRIMARIO INCOMPLETO"],
+      [3, "PRIMARIO COMPLETO"],
+      [4, "SECUNDARIO INCOMPLETO"],
+      [5, "SECUNDARIO COMPLETO"],
+      [6, "FACULDADE INCOMPLETA"],
+      [7, "FACULDADE COMPLETA"]
+    ]
+  },
+  {
+    "source_name": "emp",
+    "alt_name": "emprego",
+    "replace": [
+      [1, "EMPREGADO"],
+      [2, "ESTUDANTE"],
+      [3, "DONA DE CASA"],
+      [4, "APOSENTADO"],
+      [5, "OUTRO"]
+    ]
+  },
+  {
+    "source_name": "income_cat",
+    "alt_name": "renda",
+    "replace": [
+      [1, "BAIXA RENDA"],
+      [2, "BAIXA MEDIA RENDA"],
+      [3, "ALTA MEDIA RENDA"],
+      [4, "ALTA RENDA"]
+    ]
+  },
+
+
+
   {
     "source_name": "dsm_mddh",
     "alt_name": "possui_depressao",
