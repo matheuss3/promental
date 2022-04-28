@@ -1,7 +1,6 @@
 # Run this app with `python app.py` and
 # visit http://127.0.0.1:8050/ in your web browser.
 
-
 from dash import Dash, html, dcc
 import dash_bootstrap_components as dbc
 import plotly.express as px
@@ -35,14 +34,14 @@ fig3 = go.Figure()
 fig3.add_trace(go.Indicator(
             value = len(df),
             mode = 'number',
-            title='Qtd pessoas avaliadas',
+            title='Pessoas avaliadas',
             domain = {'x': [0, 0.33], 'y': [0, 1]}
         ))
 
 fig3.add_trace(go.Indicator(
             value = len(df[df['possui_depressao'] == 'POSSUI']),
             mode = 'number',
-            title='Qtd pessoas com depressao',
+            title='Depressivos',
             domain = {'x': [0.33, 0.66], 'y': [0, 1]}
         ))
 
@@ -53,28 +52,27 @@ fig3.add_trace(go.Indicator(
             domain = {'x': [0.66, 1], 'y': [0, 1]}
         ))
 fig3.update_layout(
-    height=200,
-    margin= { 't': 75, 'r': 75, 'l': 75, 'b': 75 }
+    height=125,
+    # margin= { 't': 75, 'r': 75, 'l': 75, 'b': 75 }
 )
 app.layout = dbc.Container([
-    html.H1(children='Promental'),
+    html.H1(children='🧠 Promental'),
 
-    html.Div(children='''
-        Dashboard desenvolvido para visualização de dados do Promental
+    html.P(children='''
+        Dashboard criado para visualização de dados do Promental
     '''),
 
     html.Div([
-    dbc.Card(
-        dbc.CardBody([
-            dcc.Graph(
-            id='indicators',
-            figure=fig3
-        ),
-            dbc.Row(
-                [
-                    dbc.Col([
-                        html.Div([
-                            dbc.Card(
+        dbc.Card(
+            dbc.CardBody([
+                dcc.Graph(
+                    id='indicators',
+                    figure=fig3
+                ),
+            dbc.Row([
+                dbc.Col([
+                    html.Div([
+                        dbc.Card(
                                 dbc.CardBody([
                                     dcc.Graph(
                                         id='bar-graph',
