@@ -22,9 +22,9 @@
 
 ### Instruções<br>
 **Preparando a base de dados SQLite**
-- Criar um banco de dados SQLite chamado de *db.sqlite* na pasta database
+- Criar um banco de dados SQLite chamado de *db.sqlite* na pasta data
 - Configurar as variáveis no arquivo *config.ini*, com o caminho do dataset e do banco de dados
 - E executar *main.py* da pasta etl<br>
 
 **Executando o ambiente web com o dash**
-- Com o banco de dados criado basta executar o *app.py* utilizando o python3
+- Com o banco de dados criado basta executar o *web/app.py* utilizando o python3
