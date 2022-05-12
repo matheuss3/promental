@@ -17,7 +17,7 @@
 
 
 ### Requisitos<br>
-- Python3
+- Python 3
 - Dependeces: [pandas](https://pandas.pydata.org/), [dash](https://dash.plotly.com/), dash_bootstrap_components
 
 ### Instruções<br>
