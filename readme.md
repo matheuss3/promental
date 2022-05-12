@@ -8,11 +8,11 @@
 
 
 ### Características essenciais para a base de dados
-><img src="https://github.com/matheuss3/promental-data-visualization/blob/main/arquivos-auxiliares/data-quality.jpeg?raw=true" width="500" alt="Data Quality">
+><img src="https://github.com/matheuss3/promental-data-visualization/blob/main/extras/images/data-quality.jpeg?raw=true" width="500" alt="Data Quality">
 
 ### Preview page
-><img src="https://github.com/matheuss3/promental-data-visualization/blob/main/images/preview_dashboard_1.png?raw=true" width="1200" alt="Preview Page 1">
-><img src="https://github.com/matheuss3/promental-data-visualization/blob/main/images/preview_dashboard_2.png?raw=true" width="1200" alt="Preview Page 2">
+><img src="https://github.com/matheuss3/promental-data-visualization/blob/main/extras/images/preview_dashboard_1.png?raw=true" width="1200" alt="Preview Page 1">
+><img src="https://github.com/matheuss3/promental-data-visualization/blob/main/extras/images/preview_dashboard_2.png?raw=true" width="1200" alt="Preview Page 2">
 <br>
 
 
