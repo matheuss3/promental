@@ -1,4 +1,4 @@
-# Projeto Promental
+# 🧠 Projeto Promental
 
 ### Descrição<br>
 > Repositório com o sistema para visualização de dados do projeto promental, utilizando o **Dash** com ele é possível criar um ambiente web para a análise dos dados coletados de forma visual e interativa.
