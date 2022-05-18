@@ -11,7 +11,7 @@ import numpy as np
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.SLATE])
 
-con = sqlite3.connect('./database/db.sqlite')
+con = sqlite3.connect('../data/db.sqlite')
 
 df = pd.read_sql('SELECT * FROM dataset_depressao', con)
 df_group = df.groupby(['possui_depressao', 'sexo']).size().reset_index(name='counts')
@@ -20,10 +20,10 @@ fig = px.bar(df_group, x="possui_depressao", title='Casos positivos e negativos 
 
 
 df_year_graph = df.groupby(['idade', 'possui_depressao']).size().reset_index(name='counts')
-fig2 = px.histogram(df_year_graph, x='idade', y='counts', title='Quantidade de pessoas entrevistadas x Idade')
+fig2 = px.bar(df_year_graph, x='idade', y='counts', title='Quantidade de pessoas entrevistadas x Idade')
 
 df_graph_year_depression = df[df['possui_depressao'] == 'POSSUI'].groupby(['idade', 'possui_depressao']).size().reset_index(name='counts')
-fig4 = px.line(df_graph_year_depression, x='idade', y='counts', title='Quantidade de casos por idade')
+fig4 = px.bar(df_graph_year_depression, x='idade', y='counts', title='Quantidade de casos por idade')
 
 fig5 = px.scatter_matrix(df,
     dimensions=['sexo', 'idade', 'fumante', 'saude_fisica'],
@@ -52,8 +52,6 @@ fig3.add_trace(go.Indicator(
             domain = {'x': [0.66, 1], 'y': [0, 1]}
         ))
 fig3.update_layout(
-    height=125,
-    # margin= { 't': 75, 'r': 75, 'l': 75, 'b': 75 }
 )
 app.layout = dbc.Container([
     html.H1(children='🧠 Promental'),
