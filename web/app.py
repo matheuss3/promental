@@ -20,7 +20,7 @@ fig = px.bar(df_group, x="possui_depressao", title='Casos positivos e negativos 
 
 
 df_year_graph = df.groupby(['idade', 'possui_depressao']).size().reset_index(name='counts')
-fig2 = px.bar(df_year_graph, x='idade', y='counts', title='Quantidade de pessoas entrevistadas x Idade')
+fig2 = px.bar(df_year_graph, x='idade', y='counts', title='Quantidade de pessoas entrevistadas x Idade', color='possui_depressao')
 
 df_graph_year_depression = df[df['possui_depressao'] == 'POSSUI'].groupby(['idade', 'possui_depressao']).size().reset_index(name='counts')
 fig4 = px.bar(df_graph_year_depression, x='idade', y='counts', title='Quantidade de casos por idade')
@@ -51,8 +51,8 @@ fig3.add_trace(go.Indicator(
             title='%',
             domain = {'x': [0.66, 1], 'y': [0, 1]}
         ))
-fig3.update_layout(
-)
+fig3.update_layout(height=250)
+
 app.layout = dbc.Container([
     html.H1(children='🧠 Promental'),
 
@@ -62,10 +62,14 @@ app.layout = dbc.Container([
 
     html.Div([
         dbc.Card(
+            
             dbc.CardBody([
-                dcc.Graph(
-                    id='indicators',
-                    figure=fig3
+                dbc.Card(
+                    dbc.CardBody([
+                    dcc.Graph(
+                        id='indicators',
+                        figure=fig3
+                    )]),
                 ),
             dbc.Row([
                 dbc.Col([
@@ -80,7 +84,7 @@ app.layout = dbc.Container([
                             )
                         ])
 
-                    ], width=3),
+                    ], width=4),
                     dbc.Col([
                         html.Div([
                             dbc.Card(
@@ -93,7 +97,7 @@ app.layout = dbc.Container([
                             )
                         ])
 
-                    ], width=9),
+                    ], width=8),
                 ]
             )])),
             html.Div([
