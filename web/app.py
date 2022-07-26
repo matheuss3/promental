@@ -1,126 +1,30 @@
-# Run this app with `python app.py` and
-# visit http://127.0.0.1:8050/ in your web browser.
+from ast import Add
+from pycaret.classification import load_model, predict_model
+import streamlit as st
 
-from dash import Dash, html, dcc
-import dash_bootstrap_components as dbc
-import plotly.express as px
-import plotly.graph_objects as go
-import pandas as pd
-import sqlite3
-import numpy as np
+model = load_model('deployment_26072022')
 
-app = Dash(__name__, external_stylesheets=[dbc.themes.SLATE])
-
-con = sqlite3.connect('../data/db.sqlite')
-
-df = pd.read_sql('SELECT * FROM dataset_depressao', con)
-df_group = df.groupby(['possui_depressao', 'sexo']).size().reset_index(name='counts')
-fig = px.bar(df_group, x="possui_depressao", title='Casos positivos e negativos x sexo', 
-            y="counts", color='sexo', barmode="group")
+def predict(model, input_df):
+    predictions_df = predict_model(extimator=model, data=input_df)
+    predictions = predictions_df['Label'][0]
+    return predictions
 
 
-df_year_graph = df.groupby(['idade', 'possui_depressao']).size().reset_index(name='counts')
-fig2 = px.bar(df_year_graph, x='idade', y='counts', title='Quantidade de pessoas entrevistadas x Idade', color='possui_depressao')
+def run():
+    st.write("""
+    # Promental""")
 
-df_graph_year_depression = df[df['possui_depressao'] == 'POSSUI'].groupby(['idade', 'possui_depressao']).size().reset_index(name='counts')
-fig4 = px.bar(df_graph_year_depression, x='idade', y='counts', title='Quantidade de casos por idade')
 
-fig5 = px.scatter_matrix(df,
-    dimensions=['sexo', 'idade', 'fumante', 'saude_fisica'],
-    color='possui_depressao')
+    add_selectbox = st.sidebar.selectbox(
+        "Como gostaria de prever?", 
+        ("Online", "Bacht"))
+    
+    if add_selectbox == "Online":
+        age = st.number_input("Qual sua idade?", min_value=0, max_value=100, value=18)
+        if st.checkbox("Fumante"):
+            fumante = 1
+        else:
+            fumante = 5
+    
 
-fig3 = go.Figure()
-
-fig3.add_trace(go.Indicator(
-            value = len(df),
-            mode = 'number',
-            title='Pessoas avaliadas',
-            domain = {'x': [0, 0.33], 'y': [0, 1]}
-        ))
-
-fig3.add_trace(go.Indicator(
-            value = len(df[df['possui_depressao'] == 'POSSUI']),
-            mode = 'number',
-            title='Depressivos',
-            domain = {'x': [0.33, 0.66], 'y': [0, 1]}
-        ))
-
-fig3.add_trace(go.Indicator(
-            value = len(df[df['possui_depressao'] == 'POSSUI']) / len(df) * 100,
-            mode = 'number',
-            title='%',
-            domain = {'x': [0.66, 1], 'y': [0, 1]}
-        ))
-fig3.update_layout(height=250)
-
-app.layout = dbc.Container([
-    html.H1(children='🧠 Promental'),
-
-    html.P(children='''
-        Dashboard criado para visualização de dados do Promental
-    '''),
-
-    html.Div([
-        dbc.Card(
-            
-            dbc.CardBody([
-                dbc.Card(
-                    dbc.CardBody([
-                    dcc.Graph(
-                        id='indicators',
-                        figure=fig3
-                    )]),
-                ),
-            dbc.Row([
-                dbc.Col([
-                    html.Div([
-                        dbc.Card(
-                                dbc.CardBody([
-                                    dcc.Graph(
-                                        id='bar-graph',
-                                        figure=fig
-                                    )
-                                ])
-                            )
-                        ])
-
-                    ], width=4),
-                    dbc.Col([
-                        html.Div([
-                            dbc.Card(
-                                dbc.CardBody([
-                                    dcc.Graph(
-                                        id='histogram',
-                                        figure=fig2
-                                    )
-                                ])
-                            )
-                        ])
-
-                    ], width=8),
-                ]
-            )])),
-            html.Div([
-                            dbc.Card(
-                                dbc.CardBody([
-                                    dcc.Graph(
-                                        id='line-graph',
-                                        figure=fig4
-                                    )
-                                ])
-                            )
-                        ]),
-                        html.Div([
-                            dbc.Card(
-                                dbc.CardBody([
-                                    dcc.Graph(
-                                        id='pairplot-graph',
-                                        figure=fig5
-                                    )
-                                ])
-                            )
-                        ])])
-], fluid=True,)
-
-if __name__ == '__main__':
-    app.run_server(debug=True)
+run()
