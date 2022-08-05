@@ -1,0 +1,156 @@
+[
+  {
+    "column": "SC1_1",
+    "question": "Sexo",
+    "options": {
+      "Masculino": 1,
+      "Feminino": 2
+    }
+  },
+  {
+    "column": "SC8_2",
+    "question": "Como julgaria sua idade mental atualmente?",
+    "options": {
+      "Excelente":1,
+      "Muito boa": 2,
+      "Boa": 3,
+      "Razoável": 4,
+      "Ruim": 5,
+      "Não sei": 8,
+      "Prefiro não responder": 9
+    }
+  },
+  {
+    "column": "SC20",
+    "question": "Já teve alguma vez na vida um ataque de medo ou pânico, em que de repente se sentiu com medo intenso, muito ansioso(a) ou com muito mal-estar?",
+    "options": {
+      "Sim": 1,
+      "Não": 5,
+      "Não sei": 8,
+      "Prefiro não responder": 9
+    }
+  },
+  {
+    "column": "SC20A",
+    "question": "Já teve um ataque em que de repente, sentiu mal-estar intenso, sentiu falta de ar ou tontura ou náusea ou seu coração batendo forte, ou pensou que poderia perder o controle, morrer, ou enlouquecer?",
+    "options": {
+      "Sim": 1,
+      "Não": 5,
+      "Não sei": 8,
+      "Prefiro não responder": 9
+    }
+  },
+  {
+    "column": "SC20_3",
+    "question": "Já teve ataques de raiva em que de repente perdeu o controle e ameaçou bater ou machucar alguém?",
+    "options": {
+      "Sim": 1,
+      "Não": 5,
+      "Não sei": 8,
+      "Prefiro não responder": 9
+    }
+  },
+  {
+    "column": "SC21",
+    "question": "Já teve alguma vez na vida um período de vários dias ou mais em que na maior parte do dia se sentia triste,vazio(a) ou deprimido(a)?",
+    "options": {
+      "Sim": 1,
+      "Não": 5,
+      "Não sei": 8,
+      "Prefiro não responder": 9
+    }
+  },
+  {
+    "column": "SC22",
+    "question": "Já teve um período de vários dias ou mais em que na maior parte do dia se sentia muito desanimado(a) em relação a como as coisas andavam em sua vida?",
+    "options": {
+      "Sim": 1,
+      "Não": 5,
+      "Não sei": 8,
+      "Prefiro não responder": 9
+    }
+  },
+  {
+    "column": "SC23",
+    "question": "Já teve um período de vários dias ou mais em que perdeu o interesse na maioria das coisas de que habitualmente gostava como trabalho, diversão e relacionamentos pessoais?",
+    "options": {
+      "Sim": 1,
+      "Não": 5,
+      "Não sei": 8,
+      "Prefiro não responder": 9
+    }
+  },
+  {
+    "column": "SC25",
+    "question": "Já teve um período de quatro dias ou mais em que na maior parte do tempo se sentia irritado(a), nervoso(a), ou de mau humor?",
+    "options": {
+      "Sim": 1,
+      "Não": 5,
+      "Não sei": 8,
+      "Prefiro não responder": 9
+    }
+  },
+  {
+    "column": "SC26",
+    "question": "Já teve um período em sua vida em que era “muito preocupado(a)” isto é, se preocupava muito mais do que outras pessoas com os mesmos problemas que você?",
+    "options": {
+      "Sim": 1,
+      "Não": 5,
+      "Não sei": 8,
+      "Prefiro não responder": 9
+    }
+  },
+  {
+    "column": "SC26A",
+    "question": "Já teve um período em sua vida em que era muito mais nervoso(a) ou ansioso(a) do que a maioria das outras pessoas com os mesmos problemas que você?",
+    "options": {
+      "Sim": 1,
+      "Não": 5,
+      "Não sei": 8,
+      "Prefiro não responder": 9
+    }
+  },
+  {
+    "column": "SC35",
+    "question": "Algumas pessoas adultas têm dificuldade de se separar de membros da família, parceiros românticos, ou amigos próximos. Podem, por exemplo, ficar muito perturbadas quando estão longe dessa pessoa, preocupar-se muito com a possibilidade dessa pessoa deixá-las, e ficar muito “grudadas” ou dependentes. Depois de adulto(a), você já teve algum período que durou um mês ou mais em que teve problemas como esses?",
+    "options": {
+      "Sim": 1,
+      "Não": 5,
+      "Não sei": 8,
+      "Prefiro não responder": 9
+    }
+  },
+  {
+    "column": "D1",
+    "question": "Você mencionou anteriormente que teve períodos de vários dias ou mais em que se sentia triste, vazio(a) ou deprimido(a) a maior parte do dia? Durante fases como essa, você, alguma vez se sentiu desanimado(a) em relação a como as coisas andavam em sua vida?",
+    "options": {
+      "Sim": 1,
+      "Não": 5,
+      "Não sei": 8,
+      "Prefiro não responder": 9
+    }
+  },
+  {
+    "column": "D12",
+    "question": "Alguma vez você já passou por um um período que tenha durado duas semanas ou mais em que se sentiu desinteressado(a) a maior parte do dia, quase todos os dias?",
+    "options": {
+      "Sim": 1,
+      "Não": 5,
+      "Não sei": 8,
+      "Prefiro não responder": 9
+    }
+  },
+  {
+    "column": "D87_1",
+    "question": "Sobre seus parentes próximos, incluindo seus pais biológicos, irmãos e filhos, quantos já tiveram alguma vez episódios em que se sentiam tristes, desanimados ou desinteressados, que causaram muito sofrimento ou que interferiram na vida deles?",
+    "options": {
+      "1": "1",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5",
+      "Não sei": 998,
+      "Prefiro não responder": 999
+    }
+  }
+]
